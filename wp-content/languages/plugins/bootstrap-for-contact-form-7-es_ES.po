@@ -1,0 +1,55 @@
+# Translation of Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-28 07:33:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: modifications.php:205
+msgid "Your Name"
+msgstr "Nombre"
+
+#: modifications.php:206
+msgid "Your Email"
+msgstr "Correo Electrónico"
+
+#: modifications.php:207
+msgid "Subject"
+msgstr "Asunto"
+
+#: modifications.php:208
+msgid "Your Message"
+msgstr "Mensaje"
+
+#: modifications.php:209 modules/submit.php:22
+msgid "Send"
+msgstr "Enviar"
+
+#: modules/captcha.php:22
+msgid "To use CAPTCHA, you need <a href=\"http://wordpress.org/extend/plugins/really-simple-captcha/\">Really Simple CAPTCHA</a> plugin installed."
+msgstr "Para utilizar CAPTCHA, necesita tener <a href=\"http://wordpress.org/extend/plugins/really-simple-captcha/\">Really Simple CAPTCHA</a> Plugin instalado."
+
+#. Plugin Name of the plugin/theme
+msgid "Bootstrap for Contact Form 7"
+msgstr "Bootstrap for Contact Form 7"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/bootstrap-for-contact-form-7/"
+msgstr "https://es.wordpress.org/plugins/bootstrap-for-contact-form-7/"
+
+#. Description of the plugin/theme
+msgid "This plugin modifies the output of the popular Contact Form 7 plugin to be styled in compliance with themes using the Bootstrap CSS framework."
+msgstr "Este plugin modifica la salida de el popular Contact Form 7 plugin de estilo para estar en cumplimiento con los temas utilizando el marco Bootstrap CSS."
+
+#. Author of the plugin/theme
+msgid "Felix Arntz"
+msgstr "Felix Arntz"
+
+#. Author URI of the plugin/theme
+msgid "http://leaves-and-love.net"
+msgstr "http://leaves-and-love.net"

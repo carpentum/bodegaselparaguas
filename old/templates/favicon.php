@@ -1,0 +1,2 @@
+<!--<link rel="icon" href="<?php echo $urlpath;?>images/animated_favicon1.gif" type="image/x-icon" />-->
+<link rel="shortcut icon" href="<?php echo $urlpath;?>images/animated_favicon1.gif" type="image/ico" />

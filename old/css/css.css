@@ -1,0 +1,573 @@
+.clear{clear:both}
+.txtcentrado{text-align:center;}
+.noseve{display:none;}
+
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+img {
+    border: 0;
+}
+
+img.derecha {
+    float: right;
+    margin: 0;
+}
+
+/*********************** index.php **************/
+
+div#body {
+    height:800px;
+    margin:0;
+    padding:0;
+}
+
+div#cabecera{
+    width:1024px;
+    height:253px;
+}
+
+#cajagrande {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+/******************* cabecera ****************************/
+
+/********************* Menú horizontal *****************/
+/*.menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background: #fff;
+}
+.menu li {
+        padding: 0;
+        margin: 0;
+        height: 31px;
+        margin-right: 1em;
+        list-style: none;
+        background-repeat: no-repeat;
+}
+.quienessomos{background-image: url(../images/botones/quienes-somos.png); background-repeat: no-repeat; width: 115px;
+.vinedo{background-image: url(../images/botones/vinedo.png); background-repeat: no-repeat; width: 115px; 
+.bodega{background-image: url(../images/botones/bodega.png); background-repeat: no-repeat; width: 115px; 
+.vino{background-image: url(../images/botones/vino.png); background-repeat: no-repeat; width: 115px; 
+.clubsocios{background-image: url(../images/botones/club-de-socios.png); background-repeat: no-repeat; width: 115px; 
+.prensa{background-image: url(../images/botones/prensa.png); background-repeat: no-repeat; width: 115px; 
+.contacto{background-image: url(../images/botones/contacto.png); background-repeat: no-repeat; width: 115px; 
+        
+.menu li a, .menu li a:visited, .menu li a:hover, .menu li a:link, .menu li a:active {
+        text-decoration: none;
+        text-indent: -9999px;
+        height: 31px;
+        background-repeat: no-repeat;
+}*/
+
+
+
+
+
+.menu  {
+    list-style: none;
+    height:62px;
+    width:786px;
+    padding-left:238px;
+}
+.menu ul.listaMenu{
+    margin:0;
+    padding: 0;
+    height:62px;
+    width:835px;
+    float:right;
+}
+.menu li.elementoListaMenu {
+    padding: 0;
+    margin: 0;
+    height: 31px;
+    margin-right: 0;	/*margin-right: 1em;*/
+    margin-left: 20px;
+    list-style: none;
+    padding-top:216px;
+    background-repeat: no-repeat;
+}
+.menu li.elementoListaMenu a, .menu li.elementoListaMenu a:visited {
+    text-decoration: none;
+    /*height: 62px;  -- Quitado para que no afecte al menú bootstrap*/
+    background-repeat: no-repeat;
+}
+.menu li.elementoListaMenu {float: left;}
+
+
+/*******************************************************/
+
+
+/*********************************************************/
+
+/***************** contenido ****************************/
+
+div#contenido{
+    width:1022px;
+    margin:0;
+    margin-bottom:0;
+    padding:0;
+}
+
+/********************** contenido izquierda ******************/
+.clearit {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    clear: both;
+}
+
+/*************************************************************/
+
+div#contenidoppal{
+    width:1024px;
+    height:500px;
+}
+
+
+/******************* estasen *****************************/
+
+div#estasen{
+    margin:0;
+    text-align:left;
+    padding:13px 5px 6px;
+}
+
+span#estasentxt{padding:5px 0 0 0}
+
+/*********************** END ESTASEN **********************/
+
+/**************** contenidoTxt ***********************/
+
+
+/**************** nota ***********************/
+div#nota{
+    margin-bottom:30px;
+    padding:10px;
+}
+span#notatxt{
+    line-height:20px;
+    color:#777;
+}
+/*********************************************/
+
+div#contenidoTxt{
+    padding:40px 0 0;
+    margin:0 0 30px;
+}
+
+div.noticia{
+    margin:20px auto;
+}
+
+div.noticia:nth-child(1){
+    margin:0 auto 20px;
+}
+
+div.txtnoticia{
+    float:left;
+    width:350px;
+    padding:5px;
+}
+div.imgnoticia{
+    float:right;
+    width:660px;
+}
+div.imgnoticia2{
+    padding-top:20px;
+}
+
+div#imgvinedobodega{
+    width:470px;
+    float:left;
+}
+
+img#imgvinedobodega{
+    float:left;
+    padding:0 10px 10px 10px;
+    margin:0 30px 10px 10px;
+}
+
+img#imgid{
+    float:left;
+    margin:0 0 20px 20px;
+}
+
+img#imgvinedo{
+    float:left;
+    padding:0 10px 10px 10px;
+    margin:0 30px 10px 10px;
+}
+
+div#txtalladoimgvinedobodega{
+    width:530px;
+    float:left;
+    padding-bottom:15px;
+    text-align:justify;
+}
+
+div.txtreconocimientosbajofoto{
+    width:440px;
+    float:left;
+    padding-bottom:15px;
+}
+
+div#imgvino{
+    width:470px;
+    float:right;
+}
+
+img#imgvino{
+    float:right;
+    margin:0 0 30px 10px;
+}
+
+div#txtalladoimgvino{
+    width:515px;
+    float:left;
+    padding-bottom:10px;
+    padding-left:15px;
+}
+.down {
+    background: url("../images/link_down.png") no-repeat scroll 0 1px #ddd;
+}
+.down:hover{
+    background:url("../images/link_down.png") no-repeat scroll 0 -3px #ccc;
+}
+.pdf_link {
+    color: #555;
+    cursor: pointer;
+    display: block;
+    font-family: Georgia;
+    font-size: 11px;
+    height: 18px;
+    margin: 1px 0 0 140px;
+    padding: 3px 0 5px 10px;
+    text-align: left !important;
+    width: 190px;
+}
+
+div#h1vinedobodega{
+    padding-left:5px;
+    margin-bottom:7px;
+}
+
+div#h1vinoclubamigos{
+    padding-left:5px;
+    margin-bottom:15px;
+}
+
+div.txtclubamigos{
+    line-height:20px;
+    color:#777;
+    padding-left:5px;
+}
+
+div#linksclubamigos{
+    margin-top:20px;
+}
+
+div#linkdchaclubamigos{
+    width:30%;
+    float:right;
+}
+
+div#linkizqdaclubamigos{
+    width:30%;
+    float:left;
+    text-align:right;
+}
+
+div#linkcentroclubamigos{
+    width:14%;
+    margin:0 auto;
+}
+
+
+div.h1quienes{
+    padding-left:5px;
+    margin-bottom:10px;
+}
+
+div.h1pages{
+    background-color:#BCA426;
+    color:#fff;
+    font-size:16px;
+}
+
+span#txtalladoimgvinedobodega{
+    line-height:20px;
+    color:#777;
+}
+
+div#txtabajovinedobodega{
+    line-height:20px;
+    color:#777;
+    padding:15px 10px 20px 10px;
+}
+
+
+/**************** contacto ***********************/
+
+
+.cleanform * { margin:0; padding: 0 }	
+
+
+/* CLEAN FORM
+/////////////////////////////*/
+
+/* http://www.mattvarone.com/web-design/clean-accesible-form-foundation/ */
+
+/* General */
+
+.cleanform {
+    font-size:1em;
+    width:100%;
+    color:#777;
+    text-align:left;
+    position:relative;
+    /*margin:1em auto*/
+    margin:0 auto;
+}
+
+.formcontacto {
+    margin:1em auto 1em 30px;
+}
+
+/* Elements */
+
+.cleanform  label,.cleanform legend{  
+    padding:0;
+    margin:0.3em 0;
+}
+
+.cleanform fieldset{ 
+    padding:0.7em;
+    border:1px solid #ddd;
+    margin:0 0 0.5em 0;
+}
+
+.cleanform label {
+    font-weight:bold;
+}
+
+.cleanform fieldset input {
+    width:99%;
+    line-height:1.5em;
+    padding:0.15em;
+}
+
+.cleanform .radio input,
+.cleanform .checkbox input {
+    width:auto;
+    border:none;
+}
+
+.cleanform input, .cleanform textarea, .cleanform select {
+    display:block;
+    margin-bottom:1em;
+    font-size:1em;
+    border:1px solid #bbb;
+    padding:0.15em;
+    margin-right:1em
+}
+
+.cleanform .radio label, .cleanform .radio input,
+.cleanform .checkbox label, .cleanform .checkbox input{
+    display:inline;
+    margin:0 1.5em 0 0
+}
+
+
+.cleanform .radio input, .cleanform .checkbox input{
+    margin:0 0.3em 0 0
+}
+
+.cleanform .multiple label{
+    float:left;
+    width:29%;
+    overflow:hidden;
+    padding-left:1px;
+}
+
+.cleanform .multiple input {
+    cursor:pointer;
+}
+
+/* Button */
+
+.cleanform button {
+    margin:0.3em 0;
+    border:1px solid #ccc;
+    background-color:#eee;
+    font-size:1em;
+    cursor:pointer;
+    padding:0.5em
+}
+
+.cleanform button:hover {
+    background-color:#E6EFC2;
+    border:1px solid #C6D880;
+    color:#529214;
+}
+
+.cleanform button:active {
+    background-color:#333;
+    color:white;
+    border:1px solid #000;
+}
+
+/* information */
+
+.cleanform .formInfo {
+    margin-bottom:1em;
+    padding-bottom:0.5em;
+    border-bottom:0.1em solid #ddd;
+}
+
+.cleanform .formInfo h2 {
+    color:#00889e;
+    font-weight:bold;
+    font-size:1.2em;
+    margin-bottom:1em
+}
+
+.cleanform .formInfo p{
+    text-align:justify
+}
+
+.cleanform .required {
+    color:#bca426;
+    font-weight:bold;
+    font-size:0.8em;
+}
+
+
+
+textarea {margin: 5px auto; padding: 5px; width: 95%;}
+div#lopd{padding:10px 10px}
+form#contacto input#lopd {float:left}
+div#botones{text-align:center;}
+
+div.msgcontacto{
+    text-align:center;
+}
+
+input#acepto_politica{
+    display: inline;
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin: 6px 5px 0 10px;
+}
+
+label#label_acepto_politica{
+    display:inline;
+    width:80%;
+    float:left;
+}
+
+/*************** END CONTACTO *********************/
+
+div.txttabulado{padding:0 0 10px 20px}
+
+div#marcial_content_img{
+    width:350px;
+    float:left;
+}
+
+div#feli_content_img{
+    width:470px;
+    float:left;
+}
+
+div#marcial_content_img img,
+div#feli_content_img img{
+    float:left;
+    padding:0 10px 10px;
+    margin:0 30px 10px 10px;
+}
+
+div#marcial_content_txt{
+    width:650px;
+    float:left;
+}
+
+div#feli_content_txt{
+    width:530px;
+    float:left;
+}
+
+div#fulano_content_txt_title{
+    background-color:#BCA426;
+    color:#fff;
+    font-size:14px;
+    padding-left:5px;
+    margin-bottom:30px;
+}
+
+span#fulano_content_text{
+    line-height:20px;
+    color:#777;
+}
+/**************** END CONTENIDOTXT ***********************/
+
+/*********************************************************/
+
+/******************************** footer ************************/
+
+div#footer{
+    width:1024px;
+    text-align:center;
+    padding:5px 0;
+    margin:0;
+    vertical-align:middle;
+}
+
+div#validadores{
+    text-align:center;
+    margin:o auto;
+}
+
+div#validadores ul li{
+    display:inline;
+    padding-right:10px;
+}
+
+div.avisolegal{
+    margin-bottom:10px;
+}
+
+h4.avisolegal{
+    margin-top:25px;
+    margin-bottom:10px;
+}
+
+/****************************************************************/
+/****************************************************************/
+
+.visible{
+    display:block;
+}
+.oculto{
+    display:none;
+}
+
+.img-shadow {
+    -moz-box-shadow:    5px 5px 5px #666666;
+    -webkit-box-shadow: 5px 5px 5px #666666;
+    box-shadow:         5px 5px 5px #666666;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+  background-color: #bca426!important;
+  background-image: linear-gradient(to bottom, #bca426, #bca426)!important;
+}

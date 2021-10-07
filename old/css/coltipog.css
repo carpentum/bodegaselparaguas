@@ -1,0 +1,177 @@
+/************/
+/*De css.css*/
+/************/
+
+@font-face {
+    font-family: 'ChampagneLimousinesRegular';
+    src: url('champagne__limousines-webfont.eot');
+    src: url('champagne__limousines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('champagne__limousines-webfont.woff') format('woff'),
+         url('champagne__limousines-webfont.ttf') format('truetype'),
+         url('champagne__limousines-webfont.svg#ChampagneLimousinesRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ChampagneLimousinesBold';
+    src: url('champagne__limousines_bold-webfont.eot');
+    src: url('champagne__limousines_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('champagne__limousines_bold-webfont.woff') format('woff'),
+         url('champagne__limousines_bold-webfont.ttf') format('truetype'),
+         url('champagne__limousines_bold-webfont.svg#ChampagneLimousinesBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ChampagneLimousinesBoldItalic';
+    src: url('champagne__limousines_bold_italic-webfont.eot');
+    src: url('champagne__limousines_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('champagne__limousines_bold_italic-webfont.woff') format('woff'),
+         url('champagne__limousines_bold_italic-webfont.ttf') format('truetype'),
+         url('champagne__limousines_bold_italic-webfont.svg#ChampagneLimousinesBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ChampagneLimousinesItalic';
+    src: url('champagne__limousines_italic-webfont.eot');
+    src: url('champagne__limousines_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('champagne__limousines_italic-webfont.woff') format('woff'),
+         url('champagne__limousines_italic-webfont.ttf') format('truetype'),
+         url('champagne__limousines_italic-webfont.svg#ChampagneLimousinesItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*h1 { font-family: "Champagne Limousines", sans-serif }*/
+
+a:link {text-decoration:underline; color:#00f} 
+a:visited {text-decoration:underline; color:#551a8b}
+a#publica:hover{text-decoration:underline; color:#f60}
+a.linksinsubrayar {text-decoration:none}
+a.linkazul:link {text-decoration:underline;color:#00f}
+
+body,html{background:#fff;}
+html,body{
+	/*font-family:'ChampagneLimousinesRegular',Arial, Helvetica, sans-serif;*/
+	font-family:arial, helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	/*font:normal 12px arial*/
+}
+
+.textoalgogrande{font-size:1.5em;}
+.textogrande{font-size:2em}
+.textomugrande{font-size:2.8em}
+.textopequenogrisdifum{font-size:.8em;color:#777}
+h1 {font-size:2.4em;font-family:times, georgia, serif;}
+h2 {font-size:1.6em;font-family:times, georgia, serif;}
+h3 {font-size:1.4em;font-family:times, georgia, serif;}
+h4 {font-size:1.2em;font-family:times, georgia, serif;}
+h5 {font-size:1.1em;font-family:times, georgia, serif;}
+h6 {font-size:1em;font-family:times, georgia, serif;}
+
+.textopequeno{font-size:.8em}
+select {font-size:.8em}
+.bigtext {font-size:1.2em}
+.textofuerte{font-weight: bold}
+.textocursiva{font-style: italic}
+.help {cursor:help}
+.textorojo{color:#f33}
+.textogris{color:#aaa}
+.textogriscorp{color:#6F6B6C;}
+.textoverdecorp{color:#BCA426;}
+.textoverde{color:#0c0}
+.txtsubrayado{text-decoration:underline;}
+.txtfuertesubrayado{text-decoration:underline; font-weight:bold}
+input.botonfuerte{font-weight:bold; font-size:1.2em; display:inline; cursor:pointer}
+label.label{font-size:1.1em}
+input.hidden{margin:0;padding:0;display:none}
+hr.fina{color:#bbb;margin:0;padding:0;}
+div.barraadsensegris{background:#ddd}
+.nisenota{margin:0;padding:0;display:inline}
+.error{color:red;font-weight:bold;}
+
+/*********************** index.php **************/
+#cajagrande {
+	background::#fff;
+		}
+
+
+/******************* cabecera ****************************/
+
+div#cabecera{
+	background-image:url('../images/cabecera.jpg');
+}
+
+
+/******************* END CABECERA ************************/
+
+/***************** contenido ****************************/
+	
+	/********************** contenido izquierda ******************/
+	/*********************** FIN CONTENIDO IZQUIERDA *************/
+	
+	/******************* estasen *****************************/
+	
+	div#estasen{font-size:11px;color:#BCA426;border-bottom: 1px solid #BCA426;}
+	div#estasen a{color:#BCA426;}
+	
+	/******************* END ESTASEN **************************/
+	
+	/**************** contenidoTxt ***********************/
+	
+		/**************** nota ***********************/
+		div#nota{
+			border:1px solid #aaa;
+			background-color:#eee;
+		}
+		span#notatxt{
+			color:#777;
+		}
+		/*********************************************/
+	
+		#mapaweb a{color:#6F6B6C;}
+		/*#mapaweb a{color:#BCA426;}*/
+		/**************** contacto ***********************/
+		form#contacto label {font-weight: bold;}
+		form#contacto input, form#contacto textarea {border: 1px solid #BCA426}
+		.inputbox:focus, .inputbox.focus {background-color: #09f; border: 1px solid #06c; color:#fff;}
+		textarea {border: 1px solid #06c;}
+		
+		/*************** END CONTACTO *********************/
+		
+		
+	/**************** END CONTENIDOTXT ***********************/
+	
+/************************ END CONTENIDO *********************************/
+
+/******************************** footer ************************/
+
+div#footer{background-color:#BCA426;}
+
+span#footertxt{
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+}
+
+span#footertxt a:link{
+	text-decoration:none;
+	color:#fff;
+}
+
+span#footertxt a:visited{
+	text-decoration:none;
+	color:#fff;
+}
+
+span#footertxt a:hover{
+	text-decoration:underline;
+	color:#fff;
+}
+
+/*********************** END FOOTER ********************************/

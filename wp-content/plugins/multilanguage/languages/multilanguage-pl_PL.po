@@ -1,0 +1,657 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: multilanguage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-04 19:28+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language-Team: Emil Król <emiljo@tlen.pl>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-mltlngg-settings.php:24 multilanguage.php:38
+#: multilanguage.php:40 multilanguage.php:1116 multilanguage.php:2431
+#: multilanguage.php:2445
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/class-mltlngg-settings.php:25
+msgid "Misc"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:26
+msgid "Custom Code"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:27
+msgid "License Key"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:67 includes/table.php:351
+#, fuzzy
+msgid "Settings saved."
+msgstr "Ustawienia zapisane"
+
+#: includes/class-mltlngg-settings.php:78
+msgid "Multilanguage Settings"
+msgstr "Ustawienia Multilanguage"
+
+#: includes/class-mltlngg-settings.php:83
+#, fuzzy
+msgid "Shortcode Language Switcher Type"
+msgstr "Przełącznik języka"
+
+#: includes/class-mltlngg-settings.php:88
+#: includes/class-mltlngg-settings.php:93
+#: includes/class-mltlngg-settings.php:98 multilanguage.php:878
+#: multilanguage.php:879 multilanguage.php:880 multilanguage.php:957
+#: multilanguage.php:963 multilanguage.php:969
+msgid "Drop-down list"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:88
+#: includes/class-mltlngg-settings.php:98 multilanguage.php:878
+#: multilanguage.php:880 multilanguage.php:957 multilanguage.php:969
+#, fuzzy
+msgid "flag"
+msgstr "Flaga"
+
+#: includes/class-mltlngg-settings.php:88
+#: includes/class-mltlngg-settings.php:93 multilanguage.php:875
+#: multilanguage.php:878 multilanguage.php:879 multilanguage.php:957
+#: multilanguage.php:963
+#, fuzzy
+msgid "title"
+msgstr "Tytuł:"
+
+#: includes/class-mltlngg-settings.php:103 includes/table.php:39
+#: multilanguage.php:875 multilanguage.php:877 multilanguage.php:974
+msgid "Flag"
+msgstr "Flaga"
+
+#: includes/class-mltlngg-settings.php:112
+#: includes/class-mltlngg-settings.php:223 includes/table.php:407
+msgid "Close"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:116
+msgid "Switch Language Automatically"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:118
+msgid ""
+"Enable to determine user IP and switch website language automatically based "
+"on the location."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:122
+msgid "Slug Position in the URL"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:134
+msgid "Before"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:143
+#, fuzzy
+msgid "After"
+msgstr "po"
+
+#: includes/class-mltlngg-settings.php:159
+msgid "Default Language Slug"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:161
+msgid "Enable to show default language slug in the URL."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:165
+msgid "WordPress Language"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:167
+msgid ""
+"Enable to switch WordPress language automatically when the language is "
+"changed in the front-end (installed WordPress language packs are required)."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:171
+msgid "hreflang Attribute"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:173
+#, php-format
+msgid ""
+"Enable to add hreflang attribute used by search engines and display the "
+"correct language or regional URL in search results. This option inserts "
+"automatically the respective link for each language within the %s section."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:180
+msgid "Translation Saving Mode"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:185
+msgid "Auto"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:190
+msgid "Manual (Save Changes button)"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:193
+msgid ""
+"Enable Manual mode if you have some problems with saving translations using "
+"Auto mode."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:198
+msgid "Default Search by"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:202
+msgid "Current language"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:206
+msgid "All active languages"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:227
+msgid "Update GeoIP Every"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:230
+#, fuzzy
+msgid "months"
+msgstr "miesiące"
+
+#: includes/class-mltlngg-settings.php:231
+#, fuzzy
+msgid "Country table is not loaded yet."
+msgstr "Lista krajów nie została jeszcze załadowana"
+
+#: includes/class-mltlngg-settings.php:233
+msgid "Update Now"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:236
+#, php-format
+msgid ""
+"Automatically download lists with registered IP addresses all over the world "
+"(from %s) to the database. Receive an information about each IP address, and "
+"to which country it belongs to."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:236
+msgid "Learn More"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:267
+msgid "Language Switcher"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:270
+msgid "Add \"Multilanguage Switcher\" to a widget."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:270
+msgid "Navigate to Widgets"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:271
+msgid "Add \"Multilanguage Switcher\" to a menu."
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:271
+msgid "Navigate to Menus"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:272
+msgid ""
+"Add a language switcher to your posts, pages or custom post types by using "
+"the following shortcode:"
+msgstr ""
+
+#: includes/class-mltlngg-settings.php:274
+msgid ""
+"Add a language switcher to PHP template files by using the following code"
+msgstr ""
+
+#: includes/table.php:15
+msgid "language"
+msgstr "język"
+
+#: includes/table.php:16
+msgid "languages"
+msgstr "języki"
+
+#: includes/table.php:37 multilanguage.php:876
+#, fuzzy
+msgid "Title"
+msgstr "Tytuł:"
+
+#: includes/table.php:38 includes/table.php:411
+msgid "URL Slug"
+msgstr ""
+
+#: includes/table.php:40 includes/table.php:398
+msgid "Order"
+msgstr ""
+
+#: includes/table.php:58 includes/table.php:366 includes/table.php:376
+msgid "Default"
+msgstr "Domyślny"
+
+#: includes/table.php:62
+#, fuzzy
+msgid "Edit"
+msgstr "Edytuj"
+
+#: includes/table.php:68 includes/table.php:80 includes/table.php:91
+msgid "Enable"
+msgstr "Włącz"
+
+#: includes/table.php:70 includes/table.php:81 includes/table.php:86
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: includes/table.php:72 includes/table.php:82 includes/table.php:87
+#: includes/table.php:92
+msgid "Delete"
+msgstr "Usuń"
+
+#: includes/table.php:212 includes/table.php:461 multilanguage.php:42
+msgid "Languages"
+msgstr "Języki"
+
+#: includes/table.php:247
+msgid "Language added"
+msgstr "Dodano język"
+
+#: includes/table.php:249
+msgid "Incorrect language data."
+msgstr ""
+
+#: includes/table.php:313
+#, php-format
+msgid "Error: File size > %s."
+msgstr ""
+
+#: includes/table.php:315
+msgid "Error: Invalid file type."
+msgstr ""
+
+#: includes/table.php:327
+msgid "Error: failed to move file."
+msgstr ""
+
+#: includes/table.php:330
+#, php-format
+msgid "Error: image width and height should not exceed %s."
+msgstr ""
+
+#: includes/table.php:334
+msgid "Uploading Error: check image properties."
+msgstr ""
+
+#: includes/table.php:355
+msgid "Edit Language"
+msgstr ""
+
+#: includes/table.php:372
+msgid "Flag Image"
+msgstr ""
+
+#: includes/table.php:379
+msgid "Custom"
+msgstr ""
+
+#: includes/table.php:386
+msgid "Current flag"
+msgstr ""
+
+#: includes/table.php:394
+#, php-format
+msgid ""
+"Upload image of %s maximum dimensions in JPG, JPEG or PNG formats (maximum "
+"file size - %s)."
+msgstr ""
+
+#: includes/table.php:435
+#, fuzzy
+msgid "Site Title"
+msgstr "Tytuł:"
+
+#: includes/table.php:441
+msgid "Tagline"
+msgstr ""
+
+#: includes/table.php:449 multilanguage.php:48
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/table.php:455
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: includes/table.php:462
+msgid "Add New"
+msgstr ""
+
+#: includes/table.php:480
+#, fuzzy
+msgid "All"
+msgstr "Wszystkie obecne ustawienia na oddzielnych stronach zostaną zastąpione"
+
+#: includes/table.php:481
+msgid "Active"
+msgstr ""
+
+#: includes/table.php:482
+msgid "Disabled"
+msgstr "Wyłączony"
+
+#: includes/table.php:520
+#, fuzzy
+msgctxt "plural"
+msgid "enabled"
+msgstr "Włączony"
+
+#: includes/table.php:520
+#, fuzzy
+msgctxt "singular"
+msgid "enabled"
+msgstr "Włączony"
+
+#: includes/table.php:537
+#, fuzzy
+msgctxt "plural"
+msgid "disabled"
+msgstr "Wyłączony"
+
+#: includes/table.php:537
+#, fuzzy
+msgctxt "singular"
+msgid "disabled"
+msgstr "Wyłączony"
+
+#: includes/table.php:553
+#, fuzzy
+msgctxt "plural"
+msgid "deleted"
+msgstr "Zaznaczony wpis został usunięty z dziennika"
+
+#: includes/table.php:553
+#, fuzzy
+msgctxt "singular"
+msgid "deleted"
+msgstr "Zaznaczony wpis został usunięty z dziennika"
+
+#: includes/table.php:557
+#, fuzzy
+msgid "Unknown action"
+msgstr "Nieznana operacja"
+
+#: includes/table.php:561
+#, fuzzy, php-format
+msgid "Selected languages have been %s"
+msgstr "Dodaj język"
+
+#: includes/table.php:564
+#, php-format
+msgid "None of the selected languages has been %s"
+msgstr ""
+
+#: includes/table.php:585
+msgid "Choose a language"
+msgstr "Wybierz język"
+
+#: includes/table.php:604 multilanguage.php:1155
+msgid "Add Language"
+msgstr ""
+
+#: multilanguage.php:121 multilanguage.php:884 multilanguage.php:2261
+#: multilanguage.php:2264
+#, fuzzy
+msgid "Multilanguage switcher"
+msgstr "Przełącznik języka"
+
+#: multilanguage.php:852
+msgid ""
+"Attention!!! The changes will not be saved because Title and Content fields "
+"are empty on the current tab! It is recommended to fill in at least one "
+"field or switch to the tab with the fields that are already filled."
+msgstr ""
+"Uwaga! Zmiany nie zostaną zapisane, ponieważ pola Tytuł i Zawartość są puste "
+"na bieżącej karcie! Zalecane jest, aby wypełnić co najmniej jedno pole lub "
+"przełączyć na zakładkę z pola, które są już wypełnione."
+
+#: multilanguage.php:853
+msgid ""
+"Switching to another language, all unsaved data will be lost. Save data?"
+msgstr ""
+
+#: multilanguage.php:916
+msgid "Content language switch"
+msgstr "Przełącznik języka Treści"
+
+#: multilanguage.php:948
+msgid "Localization"
+msgstr "Region"
+
+#: multilanguage.php:951
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: multilanguage.php:1160
+#, fuzzy
+msgid "Attention"
+msgstr "UWAGA!"
+
+#: multilanguage.php:1160
+msgid ""
+"Please update the post before switching the language. Data is not saved "
+"automatically."
+msgstr ""
+
+#: multilanguage.php:1164
+msgid "Edit for language"
+msgstr "Edycja dla języka"
+
+#: multilanguage.php:1418 multilanguage.php:1479
+msgid "Translations"
+msgstr "Tłumaczenia"
+
+#: multilanguage.php:1613
+#, php-format
+msgid "Protected: %s"
+msgstr "Zabezpieczony:%s"
+
+#: multilanguage.php:1616
+#, php-format
+msgid "Private: %s"
+msgstr "Prywatny:%s"
+
+#: multilanguage.php:1816 multilanguage.php:2344
+msgid "(more&hellip;)"
+msgstr ""
+
+#: multilanguage.php:2446
+msgid "FAQ"
+msgstr "FAQ"
+
+#: multilanguage.php:2447
+msgid "Support"
+msgstr "Wsparcie"
+
+#, fuzzy
+#~ msgid "Aligned languages list"
+#~ msgstr "Rozwijana lista języków"
+
+#, fuzzy
+#~ msgid "Aligned flag icons"
+#~ msgstr "Ikony flag"
+
+#~ msgid "Drop-down languages list"
+#~ msgstr "Rozwijana lista języków"
+
+#~ msgid "Drop-down flag icons"
+#~ msgstr "Rozwijana lista flag"
+
+#~ msgid "Flag icons"
+#~ msgstr "Ikony flag"
+
+#~ msgid "Settings saved"
+#~ msgstr "Zapisano ustawienia"
+
+#~ msgid "Incorrect language data"
+#~ msgstr "Bledne dane jezyka"
+
+#~ msgid "Add language"
+#~ msgstr "Dodaj język"
+
+#~ msgid ""
+#~ "If you would like to display Language switcher with a widget, you need to "
+#~ "add the widget \"Multilanguage\" in the Widgets tab."
+#~ msgstr ""
+#~ "Jeśli chcesz wyświetlić Przełącznik języka jako widżet, musisz dodać "
+#~ "widget \"Multilanguage\" w zakładce Widżety."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you would like to add a Language switcher to your page or post, please "
+#~ "use %s button"
+#~ msgstr ""
+#~ "Jeśli chcesz dodać Przełącznik języka na swojej stronie, wystarczy "
+#~ "skopiować i wkleić ten shortcode w twój Wpis albo Stronę"
+
+#~ msgid ""
+#~ "Also, you can paste the following strings into the template source code"
+#~ msgstr ""
+#~ "Ponadto, możesz też wkleić następujący ciąg do kodu źródłowego szablonu"
+
+#~ msgid "Enable new language"
+#~ msgstr "Włącz nowy język"
+
+#~ msgid "The newly added language will be enabled automatically"
+#~ msgstr "Nowo dodany język zostanie włączony automatycznie"
+
+#~ msgid "Autosave translation in the editor"
+#~ msgstr "Automatyczny zapis tłumaczeni w edytorze"
+
+#, fuzzy
+#~ msgid ""
+#~ "When switching edit posts/pages translation tab, the changes made in the "
+#~ "previous tab will be saved automatically (only when the JavaScript is "
+#~ "enabled)"
+#~ msgstr ""
+#~ "Kiedy zmieniasz zakładkę tłumaczenia dla Wpisów / Stron, tłumaczenie z "
+#~ "poprzedniej zakładki zostanie zapisane automatycznie (tylko wtedy, gdy "
+#~ "włączona jest obsługa JavaScript)"
+
+#~ msgid "Switch Wordpress localization"
+#~ msgstr "Zmień region  Wordpress"
+
+#~ msgid ""
+#~ "When changing the language in the frontend, WordPress localization will "
+#~ "also be changed (only in case additional WordPress language packs are "
+#~ "installed)"
+#~ msgstr ""
+#~ "Po zmianie języka w na stronie, region WordPress zostanie także zmieniony "
+#~ "(tylko w przypadku, gdy zainstalowane są dodatkowe pakiety językowe "
+#~ "WordPress)"
+
+#, fuzzy
+#~ msgid "selected language"
+#~ msgstr "Dodaj język"
+
+#, fuzzy
+#~ msgid "all available languages"
+#~ msgstr "Włącz nowy język"
+
+#, fuzzy
+#~ msgid "Read more about"
+#~ msgstr "Więcej..."
+
+#~ msgid "Name"
+#~ msgstr "Nazwa"
+
+#~ msgid "Locale"
+#~ msgstr "Region"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Priority"
+#~ msgstr "Priorytet"
+
+#~ msgid ""
+#~ "This language is selected by default. Please select a different default "
+#~ "language before disabling it."
+#~ msgstr ""
+#~ "Język ten jest domyślnie zaznaczony. Proszę wybrać inny język domyślny "
+#~ "przed wyłączeniem."
+
+#~ msgid "Language deleted"
+#~ msgstr "** Język usunięty"
+
+#~ msgid ""
+#~ "This language is selected by default. Please select a different default "
+#~ "language before deleting it."
+#~ msgstr ""
+#~ "Język ten jest domyślnie zaznaczony. Proszę wybrać inny język domyślny "
+#~ "przed usunięciem."
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Nie masz wystarczających uprawnień, aby wejść na tę stronę."
+
+#~ msgid "Add&nbsp;language"
+#~ msgstr "Dodaj&nbsp;język"
+
+#~ msgid "Notice:"
+#~ msgstr "Uwaga:"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Ustawienia wtyczki zostały zmienione. Aby zapisać je proszę nie zapomnieć "
+#~ "by kliknąć przycisk 'Zapisz zmiany'."
+
+#~ msgid "requires"
+#~ msgstr "wymaga"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "lub wyższy, dlatego nie został wyłączony! Proszę uaktualnić WordPress i "
+#~ "spróbować ponownie."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Wróć do WordPress"
+
+#~ msgid "Plugins page"
+#~ msgstr "Strona Wtyczki"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Jeśli lubisz naszą wtyczkę, to proszę dać mu 5 gwiazdek na WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Oceń wtyczkę"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Jeśli coś nie działa poprawnie, proszę skontaktuj się z nami"
+
+#~ msgid "Post types to translate"
+#~ msgstr "Тип посту для перекладу"

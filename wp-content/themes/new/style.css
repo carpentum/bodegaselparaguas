@@ -1,0 +1,456 @@
+/*
+Theme Name: New
+Template Theme URI: https://carpentum.com/
+Author: Ramón Mosquera
+Description: Plantilla de la nueva web bodegaselparaguas.com
+Version: 1.0
+*/
+
+@charset "utf-8";
+/* Parte general */
+html,body {
+    overflow:visible;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding:0;
+    text-align: center;
+    background-color: #e9e9e9;
+    /*background-color: #0e0d0e;*/
+    /*background: #0e0d0e url(../img/homeimg/bodyback_02.gif) top center repeat;*/
+    overflow:auto;
+
+}	
+/*#horizon {
+        position:absolute;
+        top:50%;
+        margin-top:-384px;
+        left:0;
+        width:100%;
+}
+*/
+#horizon {
+    position:absolute;
+    /* half main elements height*/
+    left:0;
+    width:100%;
+}
+#contenedor {
+    width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+    height:700px;
+    text-align:left;
+
+}
+
+div#cabecera{
+    width: 100%;
+    height: 178px; /* Alto de la cabecera */
+    border-bottom: 3px solid #c3a250; /* Borde inferior de la cabecera */
+    font-family: Copperplate Gothic Bold;
+    background-image: url(../img/homeimg/bgheader.gif);
+    border-right: 0;
+    border-left: 0;
+    overflow:hidden;
+}
+div#cuerpo{
+    width: 100%;
+    height: 363px; /* Alto del cuerpo central del sitio */
+    font-family: "Copperplate Gothic Bold";
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+    border: 0;
+    /*background-image: url(../img/homeimg/fondo_cuerpo_1010.png);
+    background-position: right;
+    background-repeat: repeat;
+    overflow-right:hidden;
+    overflow-left:hidden;*/
+}
+
+div#pie{
+    width: 100%;
+    height: 160px; /* Alto del pie de la pÃ¡gina */
+    padding-top: 10px;
+    border-top: 3px solid #c3a250; /* Borde superior del piãƒ»*/
+    text-align: center;
+    /* Parte de los textos */
+    font-family: Copperplate Gothic Bold;
+    font-size: 9px;
+    color: #CCCCCC;
+    background-image: url(../img/homeimg/bgbottom.gif);
+    background-position: center top;
+    background-repeat: repeat-x;
+    clear:both;
+    /*border-right: 0;
+    border-left: 0;
+    overflow:hidden;*/
+}
+div#pie img{
+    padding-top: 20px;
+}
+
+a:link {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    color: #FFFFFF;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    font-size: 12px;
+    color: #97773b;
+    text-decoration: none;
+}
+#logo img {
+    border:0;
+}
+
+/* Particularidades generales */
+/* Index */
+body#index div#cuerpo{
+    background-image: url(../img/splashimg/testbg.gif); /* Imagen que tiene un no se que de fondo */
+    background-repeat: repeat-x;
+}
+/* Home */
+body#home div#cabecera{
+    background-image: url(../../mg/img/fondo_home.jpg); /* Imagen que tiene otro que se yo de fondo */
+    background-repeat: repeat-x;
+}
+body#home div#pie{
+    background-image: url(../../mg/img/pie_home.jpg); /* Imagen que tiene otro que se yo de fondo */
+    background-repeat: repeat-x;
+}
+/* Familia */
+body#familia div#cabecera{
+    background-image: url(../../mg/img/fondo_home.jpg); /* Imagen que tiene otro que se yo de fondo */
+    background-repeat: repeat-x;
+}
+body#familia div#pie{
+    background-image: url(../../mg/img/pie_home.jpg); /* Imagen que tiene otro que se yo de fondo */
+    background-repeat: repeat-x;
+}
+body#home div#cuerpo div#casona{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    width: 350px;
+    margin-left: -175px;
+    text-align: justify;
+}
+/* Ajuste del texto de la casona */
+body#home div#cuerpo div#casona p{
+    font-size: 12px;
+    font-family: Copperplate Gothic Bold;
+    color: #C5A24E;
+}
+
+#divtext1 {
+    float: left;
+    height: 160px;
+    width: 660px;
+    clear: left;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    padding-top: 8px;
+    padding-left: 30px;
+    text-align: left;
+}
+#menuparagraph {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 14px;
+    color: #97773b;
+
+    padding-right:10px;
+    width: 630px;
+    float: left;
+    height: 288px;
+    top: 38px;
+    position: relative;
+    left: auto;
+}
+
+#menuparagraph a:link {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#menuparagraph a:visited {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    color: #FFFFFF;
+    font-size: 10px;
+    text-decoration: none;
+}
+#menuparagraph a:hover {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    font-size: 10px;
+    color: #97773b;
+    text-decoration: none;
+}
+#logo {
+    float:right;
+}
+
+#imgcontainer {
+    float:left;
+    position: relative;
+    height: 369px;
+    width: 265px;
+    top:143px;
+    /*right:0;*/
+    /*float: right;*/
+    visibility: inherit;
+}
+#paragraphbox {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    width: 434px;
+    text-align: justify;
+    position: relative;
+    left: -20px;
+    height: 288px;
+    top: 48px;
+    color: #171C05;
+    float: left;
+    overflow: auto;
+    padding:0px 10px 26px 0px;
+}
+#paragraphbox h4 {
+    font-family: "Copperplate Gothic Light",;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+#menubox {
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    font-size: 12px;
+    height: auto;
+    width: 307px;
+    position: relative;
+    float: left;
+    left: auto;
+    margin-top:50px;
+    z-index:10;
+}
+
+.menubutton {
+    position: relative;
+    background-color: #171c05;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #c3a250;
+    border-right-color: #c3a250;
+    border-bottom-color: #c3a250;
+    width: 231px;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-image: url(../img/familiaimg/menubullet.gif);
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    color: #c3a250;
+    text-transform: uppercase;
+    font-weight: 400;
+    top: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+}
+
+
+#menuimgextra {
+    position: relative;
+    height: auto;
+    width: auto;
+    float: left;
+    visibility: inherit;
+    z-index: 2;
+    top: -2px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #C3A250;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #C3A250;
+}
+#imgextra {
+    position: relative;
+    float: left;
+    left:0px;
+    display: none;
+    z-index: 2;
+    margin-top: -2px;	  
+}
+.imgextra {
+    position: relative;
+    display: none;
+    width: 256px;
+    height: 113px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #C3A250;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #C3A250;	  
+}
+
+
+#docuimgextra {
+    background-color:white;
+    float:left;
+    height:19px;
+    left:0px;
+    position:relative;
+    top:-126px;
+    width:256px;
+    z-index:5;
+    border-top: 1px solid #c3a250;
+    border-right: 1px solid #c3a250;
+    border-bottom: 1px solid #c3a250;
+    font-family: "Copperplate Gothic Light", "Copperplate Gothic Bold";
+    color: #c3a250;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align:right;
+    padding:2px 0;
+}
+
+#docuimgextra img{
+    border:0;
+}
+
+#tooltip {
+    position: fixed;
+    z-index: 3000;
+    border: 1px solid #171c05;
+    background-color: #C3A250;
+    padding: 0;
+    opacity: 0.90;
+    text-align:left;
+    width:257px;
+    height:auto;
+}
+#tooltip h3, #tooltip div { margin: 0; }
+
+#tooltip h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0 5px 8px;
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    color:#171c05;
+    line-height:13px;
+    float:left;
+    width:141px;
+}
+
+#tooltip .body {
+    font-size: 12px;
+    padding: 10px 0px 5px 8px;
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    color:#fff;
+    float:left;
+    position:relative;
+    line-height:14px;
+    width:141px;
+    text-align: justify;
+}
+
+#tooltip .place_img {
+    height: 113px;
+    width: 100px;
+    float:left;
+    margin: 0;
+}
+
+/*p { margin: 1em 0; }
+strong { font-weight: bolder; }
+em { font-style: italic; }*/
+
+
+
+#paragraphbox a:link {
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #7E6431;
+    text-decoration: none;
+}
+#paragraphbox a:visited {
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    color: #7E6431;
+    font-size: 12px;
+    text-decoration: none;
+}
+#paragraphbox a:hover {
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #C3A250;
+}
+
+
+/* ----- Lightbox Gallery Styles ----- */
+#thumbs ul, li {
+    display:inline;
+    margin-top:2px;
+    /* padding:4px; */
+}
+#imageOptions a img {
+    height:72px;
+    border:1px;
+    border-style: solid;
+    border-color: #C3A250;
+    width:72px;
+}
+#imageOptions li a:link{
+    margin:2px;
+    border: #C3A250;
+}
+#imageOptions li a:visited{
+    margin:2px;
+    border: #C3A250;
+}
+#imageOptions li a:hover{
+    margin:2px;
+    border: #D6BF85;
+}
+#imageOptions {
+    height:auto;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+#thumbs {
+    float:right;
+    height:100%;
+    margin-right:-3px;
+    margin-top:0;
+    padding:0;
+    width:319px;
+}
