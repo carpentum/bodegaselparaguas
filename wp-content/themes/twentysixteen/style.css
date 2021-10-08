@@ -3473,6 +3473,9 @@ input.wpcf7-submit:focus {
     background-color:#635B08;
     color:#fff;
 }
+.page-id-123 .vino-txt-outcontainer {
+    margin-top:-20px;
+}
 .post .entry-content img {
     display: block;
     margin:0 auto 40px;
@@ -3592,6 +3595,9 @@ input.wpcf7-submit:focus {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+    .page-id-123 .vino-txt-outcontainer {
+        margin-top:0;
+    }
     ul.menu {
         margin-left: 10px;
         margin-right: 10px;
