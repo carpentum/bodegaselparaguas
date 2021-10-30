@@ -50,7 +50,7 @@
          */
         do_action('twentysixteen_credits');
         ?>
-        <span class="site-footer-companyinfo"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a> &copy;2017 | Lugar de Esmelle, 111 - 15594 - Ferrol (A Coruña) | Tfno.: <a href="tel:+34636161479">+34 636 161 479</a> | <a href="/politica-de-privacidad">
+        <span class="site-footer-companyinfo"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a> &copy;<?= date("Y");?>) | Lugar de Aldea, 135 - 15594 - Cobas, Ferrol (A Coruña) | Tfno.: <a href="tel:+34636161479">+34 636 161 479</a> | <a href="/politica-de-privacidad">
                 <?php if(get_bloginfo("language") == "gl-ES"){?>
                     Política de privacidade
                 <?php } else if(get_bloginfo("language") == "en-GB"){?>
