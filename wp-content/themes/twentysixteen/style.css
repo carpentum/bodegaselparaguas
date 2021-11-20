@@ -3151,6 +3151,7 @@ footer .main-navigation {
 .page-id-3309 #content,     /*LS 2017*/
 .page-id-783 #content,      /*LS 2016*/
 .page-id-1070 #content,     /*LS 2015*/
+.page-id-4113 #content,     /*FSC 2019*/
 .page-id-3792 #content,     /*FSC 2018*/
 .page-id-3492 #content,     /*FSC 2017*/
 .page-id-2547 #content,     /*FSC 2016*/
@@ -3183,6 +3184,7 @@ footer .main-navigation {
 .page-id-3309 .entry-content,     /*LS 2017*/
 .page-id-783 .entry-content,      /*LS 2016*/
 .page-id-1070 .entry-content,     /*LS 2015*/
+.page-id-4113 .entry-content,     /*FSC 2019*/
 .page-id-3792 .entry-content,     /*FSC 2018*/
 .page-id-3492 .entry-content,     /*FSC 2017*/
 .page-id-2547 .entry-content,     /*FSC 2016*/
@@ -3246,6 +3248,9 @@ footer .main-navigation {
 .page-id-1070 #menu-item-1072,      /*LS 2015*/
 .page-id-1070 #menu-item-1572,      /*LS 2015 (inglés)*/
 .page-id-1070 #menu-item-1583,      /*LS 2015 (gallego)*/
+.page-id-4113 #menu-item-4148,       /*FSC 2019*/
+.page-id-4113 #menu-item-4150,       /*FSC 2019 (inglés)*/
+.page-id-4113 #menu-item-4149,       /*FSC 2019 (gallego)*/
 .page-id-3792 #menu-item-3892,       /*FSC 2018*/
 .page-id-3792 #menu-item-3894,       /*FSC 2018 (inglés)*/
 .page-id-3792 #menu-item-3893,       /*FSC 2018 (gallego)*/
@@ -3564,6 +3569,7 @@ input.wpcf7-submit:focus {
     .page-id-3309 #content,     /*LS 2017*/
     .page-id-783 #content,      /*LS 2016*/
     .page-id-1070 #content,     /*LS 2015*/
+    .page-id-4113 #content,     /*FSC 2019*/
     .page-id-3792 #content,     /*FSC 2018*/
     .page-id-3492 #content,     /*FSC 2017*/
     .page-id-2547 #content,     /*FSC 2016*/
@@ -3679,6 +3685,7 @@ input.wpcf7-submit:focus {
     .page-id-3309 #content .entry-title,     /*LS 2017*/
     .page-id-783 #content .entry-title,      /*LS 2016*/
     .page-id-1070 #content .entry-title,     /*LS 2015*/
+    .page-id-4113 #content .entry-title,     /*FSC 2019*/
     .page-id-3792 #content .entry-title,     /*FSC 2018*/
     .page-id-3492 #content .entry-title,     /*FSC 2017*/
     .page-id-2547 #content .entry-title,     /*FSC 2016*/

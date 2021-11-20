@@ -212,7 +212,7 @@
             este.closest(".menu-item").find(" > .sub-menu").toggle("slow");
         }
 
-        /***********    MENÃš RECONOCIMIENTOS    ***********/
+        /***********    MENÚ RECONOCIMIENTOS    ***********/
         $("#menu-item-52 a").click(function () {
             var enlace = $(this);
             $(".reconocimientos-txt").hide("slow");
@@ -245,9 +245,9 @@
                 colores_menu(enlace);
             });
         });
-        /***********    END MENÃš RECONOCIMIENTOS    ***********/
+        /***********    END MENÚ RECONOCIMIENTOS    ***********/
 
-        /***********    MENÃš RECONOCIMIENTOS (en)    ***********/
+        /***********    MENÚ RECONOCIMIENTOS (en)    ***********/
         $("#menu-item-2140 a").click(function () {
             var enlace = $(this);
             $(".reconocimientos-txt").hide("slow");
@@ -280,9 +280,9 @@
                 colores_menu(enlace);
             });
         });
-        /***********    END MENÃš RECONOCIMIENTOS (en)    ***********/
+        /***********    END MENÚ RECONOCIMIENTOS (en)    ***********/
 
-        /***********    MENÃš RECONOCIMIENTOS (ga)    ***********/
+        /***********    MENÚ RECONOCIMIENTOS (ga)    ***********/
         $("#menu-item-2148 a").click(function () {
             var enlace = $(this);
             $(".reconocimientos-txt").hide("slow");
@@ -315,9 +315,9 @@
                 colores_menu(enlace);
             });
         });
-        /***********    END MENÃš RECONOCIMIENTOS (ga)    ***********/
+        /***********    END MENÚ RECONOCIMIENTOS (ga)    ***********/
 
-        /***********    MENÃš QUIENES SOMOS    ***********/
+        /***********    MENÚ QUIENES SOMOS    ***********/
         $("#menu-item-75 a").click(function () {
             var enlace = $(this);
             $(".quienessomos-txt").hide("slow");
@@ -344,9 +344,9 @@
                 colores_menu(enlace);
             });
         });
-        /***********    END MENÃš QUIENES SOMOS    ***********/
+        /***********    END MENÚ QUIENES SOMOS    ***********/
 
-        /***********    MENÃš VIÃ‘EDO    ***********/
+        /***********    MENÚ VIÑEDO    ***********/
         $("#menu-item-96 a").click(function () {
             var enlace = $(this);
             $(".vinedo-txt").hide("slow");
@@ -380,7 +380,7 @@
             });
         });
 
-        /***********    END MENÃš VIÃ‘EDO    ***********/
+        /***********    END MENÚ VIÑEDO    ***********/
         
         function idi_mostrar_region(enlace) {
             $(".idi-txt").hide("slow");
@@ -438,7 +438,7 @@
             });
         }
 
-        /***********    MENÃš I+D+I    ***********/
+        /***********    MENÚ I+D+I    ***********/
         $("#menu-item-127 a").click(function () {
             idi_mostrar_region($(this));
         });
@@ -468,9 +468,9 @@
         $("#menu-item-994 a").click(function () {
             idi_mostrar_astillero_descargas($(this));
         });
-        /***********    END MENÃš I+D+I    ***********/
+        /***********    END MENÚ I+D+I    ***********/
 
-        /***********    MENÃš I+D+I (en)    ***********/
+        /***********    MENÚ I+D+I (en)    ***********/
         $("#menu-item-1627 a").click(function () {
             idi_mostrar_region($(this));
         });
@@ -500,9 +500,9 @@
         $("#menu-item-1634 a").click(function () {
             idi_mostrar_astillero_descargas($(this));
         });
-        /***********    END MENÃš I+D+I (en)   ***********/
+        /***********    END MENÚ I+D+I (en)   ***********/
 
-        /***********    MENÃš I+D+I (ga)    ***********/
+        /***********    MENÚ I+D+I (ga)    ***********/
         $("#menu-item-1636 a").click(function () {
             idi_mostrar_region($(this));
         });
@@ -532,7 +532,7 @@
         $("#menu-item-1642 a").click(function () {
             idi_mostrar_astillero_descargas($(this));
         });
-        /***********    END MENÃš I+D+I (ga)     ***********/
+        /***********    END MENÚ I+D+I (ga)     ***********/
 
         function clubamigos_mostrar_intro (enlace) {
             $(".clubamigos-txt").hide("slow");
@@ -562,7 +562,7 @@
                 colores_menu(enlace);
             });
         }
-        /***********    MENÃš CLUB DE AMIGOS (es)   ***********/
+        /***********    MENÚ CLUB DE AMIGOS (es)   ***********/
         $("#menu-item-143 a").click(function () {
             clubamigos_mostrar_intro ($(this));
         });
@@ -575,9 +575,9 @@
         $("#menu-item-146 a").click(function () {
             clubamigos_mostrar_hagasesocio ($(this));
         });
-        /***********    END MENÃš CLUB DE AMIGOS (es)   ***********/
+        /***********    END MENÚ CLUB DE AMIGOS (es)   ***********/
         
-        /***********    MENÃš CLUB DE AMIGOS (en)   ***********/
+        /***********    MENÚ CLUB DE AMIGOS (en)   ***********/
         $("#menu-item-1943 a").click(function () {
             clubamigos_mostrar_intro ($(this));
         });
@@ -590,9 +590,9 @@
         $("#menu-item-1946 a").click(function () {
             clubamigos_mostrar_hagasesocio ($(this));
         });
-        /***********    END MENÃš CLUB DE AMIGOS (en)   ***********/
+        /***********    END MENÚ CLUB DE AMIGOS (en)   ***********/
         
-        /***********    MENÃš CLUB DE AMIGOS (ga)   ***********/
+        /***********    MENÚ CLUB DE AMIGOS (ga)   ***********/
         $("#menu-item-1947 a").click(function () {
             clubamigos_mostrar_intro ($(this));
         });
@@ -605,7 +605,7 @@
         $("#menu-item-1950 a").click(function () {
             clubamigos_mostrar_hagasesocio ($(this));
         });
-        /***********    END MENÃš CLUB DE AMIGOS (ga)   ***********/
+        /***********    END MENÚ CLUB DE AMIGOS (ga)   ***********/
 
         function vino_mostrar_infobasica (enlace) {
             $(".epa-txt").hide("slow");
@@ -637,7 +637,7 @@
         }
 
 
-        /***********    MENÃš EPA (es)   ***********/
+        /***********    MENÚ EPA (es)   ***********/
         $("#menu-item-809 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -654,9 +654,9 @@
         $("#menu-item-811 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš EPA (es)    ***********/
+        /***********    END MENÚ EPA (es)    ***********/
 
-        /***********    MENÃš EPA (en)   ***********/
+        /***********    MENÚ EPA (en)   ***********/
         $("#menu-item-1484 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -673,9 +673,9 @@
         $("#menu-item-1488 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš EPA (en)    ***********/
+        /***********    END MENÚ EPA (en)    ***********/
 
-        /***********    MENÃš EPA (ga)   ***********/
+        /***********    MENÚ EPA (ga)   ***********/
         $("#menu-item-1507 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -692,9 +692,9 @@
         $("#menu-item-1511 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš EPA (ga)    ***********/
+        /***********    END MENÚ EPA (ga)    ***********/
 
-        /***********    MENÃš LS    ***********/
+        /***********    MENÚ LS    ***********/
         $("#menu-item-1065 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -711,9 +711,9 @@
         $("#menu-item-1069 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš LS    ***********/
+        /***********    END MENÚ LS    ***********/
 
-        /***********    MENÃš LS (en)    ***********/
+        /***********    MENÚ LS (en)    ***********/
         $("#menu-item-1566 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -730,9 +730,9 @@
         $("#menu-item-1570 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš LS (en)    ***********/
+        /***********    END MENÚ LS (en)    ***********/
 
-        /***********    MENÃš LS (ga)    ***********/
+        /***********    MENÚ LS (ga)    ***********/
         $("#menu-item-1577 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -749,9 +749,9 @@
         $("#menu-item-1581 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš LS (ga)    ***********/
+        /***********    END MENÚ LS (ga)    ***********/
 
-        /***********    MENÃš FSC    ***********/
+        /***********    MENÚ FSC    ***********/
         $("#menu-item-1074 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -768,9 +768,9 @@
         $("#menu-item-1078 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš FSC    ***********/
+        /***********    END MENÚ FSC    ***********/
 
-        /***********    MENÃš FSC (en)    ***********/
+        /***********    MENÚ FSC (en)    ***********/
         $("#menu-item-1588 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -787,9 +787,9 @@
         $("#menu-item-1592 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš FSC (en)    ***********/
+        /***********    END MENÚ FSC (en)    ***********/
 
-        /***********    MENÃš FSC (ga)    ***********/
+        /***********    MENÚ FSC (ga)    ***********/
         $("#menu-item-1602 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -806,9 +806,9 @@
         $("#menu-item-1606 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš FSC (ga)    ***********/
+        /***********    END MENÚ FSC (ga)    ***********/
 
-        /***********    MENÃš EA    ***********/
+        /***********    MENÚ EA    ***********/
         $("#menu-item-1124 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -822,9 +822,9 @@
         $("#menu-item-1127 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš EA    ***********/
+        /***********    END MENÚ EA    ***********/
 
-        /***********    MENÃš EA (en)   ***********/
+        /***********    MENÚ EA (en)   ***********/
         $("#menu-item-1613 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -838,9 +838,9 @@
         $("#menu-item-1616 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš EA (en)    ***********/
+        /***********    END MENÚ EA (en)    ***********/
 
-        /***********    MENÃš EA (ga)    ***********/
+        /***********    MENÚ EA (ga)    ***********/
         $("#menu-item-1619 a").click(function () {
             vino_mostrar_infobasica($(this));
         });
@@ -854,7 +854,7 @@
         $("#menu-item-1622 a").click(function () {
             vino_mostrar_descargas($(this));
         });
-        /***********    END MENÃš EA (ga)    ***********/
+        /***********    END MENÚ EA (ga)    ***********/
     
         if ( $('.page-id-123').length > 0 ) {
             idi_mostrar_astillero_intro($("#menu-item-948 a"));
@@ -869,7 +869,7 @@
 
     jQuery(document).ready(function () {
 
-        var desc_epa = "El Paraguas AtlÃ¡ntico";
+        var desc_epa = "El Paraguas Atlántico";
         var desc_fsc = "Fai un Sol de Carallo";
         var desc_ls = "La Sombrilla";
 
@@ -933,7 +933,7 @@
                     jQuery('.vinos_bottle_container_fsc').animate({
                         left: -240
                     }, 1000);
-                    window.location = "/fai-un-sol-de-carallo-2018/";
+                    window.location = "/fai-un-sol-de-carallo-2019/";
                     jQuery('#selector').animate({opacity: 0}, 500);
                 }
         );
