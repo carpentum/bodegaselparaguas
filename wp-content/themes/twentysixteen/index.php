@@ -79,6 +79,18 @@ get_header();
                     <div class="row">
                         <div class="col-md-12 col-sm-6 col-xs-12 newsletters">
                             <div class="newsletter">
+                                <a href="/newsletter/2021_diciembre.html" title="Diciembre 2021">
+                                    <img src="/newsletter/img/202112/screenshot.png" alt="Diciembre 2021">
+                                    <h5>Diciembre 2021</h5>
+                                </a>
+                            </div>
+                            <div class="newsletter">
+                                <a href="/newsletter/2021_septiembre.html" title="Septiembre 2021">
+                                    <img src="/newsletter/img/202109/screenshot.png" alt="Septiembre 2021">
+                                    <h5>Septiembre 2021</h5>
+                                </a>
+                            </div>
+                            <div class="newsletter">
                                 <a href="/newsletter/2021_junio.html" title="Junio 2021">
                                     <img src="/newsletter/img/202106/screenshot.png" alt="Junio 2021">
                                     <h5>Junio 2021</h5>
