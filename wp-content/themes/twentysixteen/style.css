@@ -3147,6 +3147,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 #content,
+.page-id-4235 #content,     /*LS 2019*/
 .page-id-3569 #content,     /*LS 2018*/
 .page-id-3309 #content,     /*LS 2017*/
 .page-id-783 #content,      /*LS 2016*/
@@ -3163,6 +3164,7 @@ footer .main-navigation {
 .page-id-3368 #content,     /*ASTILLERO 2017*/
 .page-id-2474 #content,     /*ASTILLERO 2016*/
 .page-id-1011 #content,     /*ASTILLERO 2015*/
+.page-id-4307 #content,     /*EPA 2020*/
 .page-id-3650 #content,     /*EPA 2019*/
 .page-id-3012 #content,     /*EPA 2018*/
 .page-id-2328 #content,     /*EPA 2017*/
@@ -3180,6 +3182,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 .entry-content,
+.page-id-4235 .entry-content,     /*LS 2019*/
 .page-id-3569 .entry-content,     /*LS 2018*/
 .page-id-3309 .entry-content,     /*LS 2017*/
 .page-id-783 .entry-content,      /*LS 2016*/
@@ -3196,6 +3199,7 @@ footer .main-navigation {
 .page-id-3368 .entry-content,     /*ASTILLERO 2017*/
 .page-id-2474 .entry-content,     /*ASTILLERO 2016*/
 .page-id-1011 .entry-content,     /*ASTILLERO 2015*/
+.page-id-4307 .entry-content,     /*EPA 2020*/
 .page-id-3650 .entry-content,     /*EPA 2019*/
 .page-id-3012 .entry-content,     /*EPA 2018*/
 .page-id-1028 .entry-content,     /*EPA 2017*/
@@ -3209,6 +3213,9 @@ footer .main-navigation {
 }
 
 /*  EN LA PÁGINA DE CADA VINO NO SE VE EL ENLACE A SU PROPIA PÁGINA  */
+.page-id-4307 #menu-item-4335,       /*EPA 2020*/
+.page-id-4307 #menu-item-4337,       /*EPA 2020 (inglés)*/
+.page-id-4307 #menu-item-4336,       /*EPA 2020 (gallego)*/
 .page-id-3650 #menu-item-3662,       /*EPA 2019*/
 .page-id-3650 #menu-item-3665,       /*EPA 2019 (inglés)*/
 .page-id-3650 #menu-item-3664,       /*EPA 2019 (gallego)*/
@@ -3236,6 +3243,9 @@ footer .main-navigation {
 .page-id-1028 #menu-item-1043,      /*EPA 2011*/
 .page-id-1028 #menu-item-1489,      /*EPA 2011 (inglés)*/
 .page-id-1028 #menu-item-1512,      /*EPA 2011 (gallego)*/
+.page-id-4235 #menu-item-4381,       /*LS 2019*/
+.page-id-4235 #menu-item-4382,       /*LS 2019 (inglés)*/
+.page-id-4235 #menu-item-4383,       /*LS 2019 (gallego)*/
 .page-id-3569 #menu-item-3895,       /*LS 2018*/
 .page-id-3569 #menu-item-3897,       /*LS 2018 (inglés)*/
 .page-id-3569 #menu-item-3896,       /*LS 2018 (gallego)*/
@@ -3515,6 +3525,20 @@ input.wpcf7-submit:focus {
     border: 0;
 }
 
+.menu {
+    max-height: 495px;
+    overflow-y: hidden;
+}
+
+.list-group-item {
+    background-color: #fff !important;
+}
+
+.list-group-item a,
+.list-group-item i {
+    color: #333 !important;
+}
+
 /**
  * 14.0 - Media Queries
  */
@@ -3581,6 +3605,7 @@ input.wpcf7-submit:focus {
     }
     .pagina_vino,
     .page-id-119 #content,
+    .page-id-4235 #content,     /*LS 2019*/
     .page-id-3569 #content,     /*LS 2018*/
     .page-id-3309 #content,     /*LS 2017*/
     .page-id-783 #content,      /*LS 2016*/
@@ -3597,6 +3622,7 @@ input.wpcf7-submit:focus {
     .page-id-3368 #content,     /*ASTILLERO 2017*/
     .page-id-2474 #content,     /*ASTILLERO 2016*/
     .page-id-1011 #content,     /*ASTILLERO 2015*/
+    .page-id-4307 #content,     /*EPA 2020*/
     .page-id-3650 #content,     /*EPA 2019*/
     .page-id-3012 #content,     /*EPA 2018*/
     .page-id-2328 #content,     /*EPA 2017*/
@@ -3697,6 +3723,7 @@ input.wpcf7-submit:focus {
 
     .pagina_vino .entry-title,
     .page-id-119 #content .entry-title,
+    .page-id-4235 #content .entry-title,     /*LS 2019*/
     .page-id-3569 #content .entry-title,     /*LS 2018*/
     .page-id-3309 #content .entry-title,     /*LS 2017*/
     .page-id-783 #content .entry-title,      /*LS 2016*/
@@ -3713,6 +3740,10 @@ input.wpcf7-submit:focus {
     .page-id-3368 #content .entry-title,     /*ASTILLERO 2017*/
     .page-id-2474 #content .entry-title,     /*ASTILLERO 2016*/
     .page-id-1011 #content .entry-title,     /*ASTILLERO 2015*/
+    .page-id-4307 #content .entry-title,      /*EPA 2020*/
+    .page-id-3650 #content .entry-title,      /*EPA 2019*/
+    .page-id-3012 #content .entry-title,      /*EPA 2018*/
+    .page-id-2328 #content .entry-title,      /*EPA 2017*/
     .page-id-777 #content .entry-title,      /*EPA 2016*/
     .page-id-1007 #content .entry-title,     /*EPA 2015*/
     .page-id-1020 #content .entry-title,     /*EPA 2014*/
@@ -4869,12 +4900,4 @@ input.wpcf7-submit:focus {
     .widecolumn {
         padding: 0;
     }
-}
-
-
-//TODO borrar al publicar EPA2019
-#menu-item-3662,
-#menu-item-3664,
-#menu-item-3665 {
-    display: none;
 }

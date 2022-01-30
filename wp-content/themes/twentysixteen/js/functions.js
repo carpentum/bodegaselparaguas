@@ -910,7 +910,7 @@
                     jQuery('.vinos_bottle_container_epa').animate({
                         left: $(".vinos_bottle_container_epa").parent().width() / 2 - $(".vinos_bottle_container_epa").width() / 2
                     }, 1000);
-                    window.location = "/el-paraguas-atlantico-2019";
+                    window.location = "/el-paraguas-atlantico-2020";
                     jQuery('#selector').animate({opacity: 0}, 500);
                 }
         );
@@ -921,7 +921,7 @@
                     jQuery('.vinos_bottle_container_fsc').animate({opacity: 0}, 500);
                     jQuery('.vinos_bottle_container_ls').animate({
                         left: 0
-                    }, 1000, window.location.href = "la-sombrilla-2018");
+                    }, 1000, window.location.href = "la-sombrilla-2019");
                     jQuery('#selector').animate({opacity: 0}, 500);
                 }
         );
@@ -938,5 +938,15 @@
                 }
         );
 
+        document.addEventListener("DOMNodeInserted", function(evt) {
+            jQuery(".list-group-item a").click(function () {
+                jQuery($(this).closest('.list-group-item')).find(' i.expand-icon').click();
+            });
+        });
+
+        jQuery(".list-group-item a").click(function () {
+            jQuery($(this).closest('.list-group-item')).find(' i.expand-icon').click();
+        });
     });
+    
 })(jQuery);
