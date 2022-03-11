@@ -48,8 +48,6 @@ get_header();
                                 if ($contador % 4 == 3)
                                     echo "<div class='row' style='margin-bottom:20px;clear:both'>";
                                 echo "<div class='col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-12 small-entry page-responsivetxt'>";
-                                ?>
-                                <?php
                                 get_template_part('template-parts/content_rest', get_post_format());
                                 echo "</div>";
                                 if ($contador % 4 == 2)
@@ -58,7 +56,7 @@ get_header();
                             $contador++;
                         // End the loop.
                         endwhile;
-                        //echo "</div>";  //Cerramos <div class="row"> si no lo hemos hecho antes
+                        echo "</div>";  //Cerramos <div class="row"> si no lo hemos hecho antes
 // Previous/next page navigation.
                         the_posts_pagination(array(
                             'prev_text' => __('Previous page', 'twentysixteen'),
@@ -72,12 +70,16 @@ get_header();
 
                     endif;
                     ?>
-                </div>
-                </div>
                 <div class="col-md-2 col-sm-12 col-xs-12">
                     <h3 style="text-align: center;margin-bottom: 20px;">Newsletters</h5>
                     <div class="row">
                         <div class="col-md-12 col-sm-6 col-xs-12 newsletters">
+                            <div class="newsletter">
+                                <a href="/newsletter/2022_marzo.html" title="Marzo 2022">
+                                    <img src="/newsletter/img/202203/screenshot.png" alt="Marzo 2022">
+                                    <h5>Marzo 2022</h5>
+                                </a>
+                            </div>
                             <div class="newsletter">
                                 <a href="/newsletter/2021_diciembre.html" title="Diciembre 2021">
                                     <img src="/newsletter/img/202112/screenshot.png" alt="Diciembre 2021">

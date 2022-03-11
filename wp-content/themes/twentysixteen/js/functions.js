@@ -245,6 +245,14 @@
                 colores_menu(enlace);
             });
         });
+        $("#menu-item-4396 a").click(function () {
+            var enlace = $(this);
+            $(".reconocimientos-txt").hide("slow")
+            $(".reconocimientos-txt").promise().done(function () {
+                $(".reconocimientos-astillero").show("slow");
+                colores_menu(enlace);
+            });
+        });
         /***********    END MENÚ RECONOCIMIENTOS    ***********/
 
         /***********    MENÚ RECONOCIMIENTOS (en)    ***********/
@@ -280,6 +288,14 @@
                 colores_menu(enlace);
             });
         });
+        $("#menu-item-4398 a").click(function () {
+            var enlace = $(this);
+            $(".reconocimientos-txt").hide("slow")
+            $(".reconocimientos-txt").promise().done(function () {
+                $(".reconocimientos-astillero").show("slow");
+                colores_menu(enlace);
+            });
+        });
         /***********    END MENÚ RECONOCIMIENTOS (en)    ***********/
 
         /***********    MENÚ RECONOCIMIENTOS (ga)    ***********/
@@ -312,6 +328,14 @@
             $(".reconocimientos-txt").hide("slow")
             $(".reconocimientos-txt").promise().done(function () {
                 $(".reconocimientos-fai").show("slow");
+                colores_menu(enlace);
+            });
+        });
+        $("#menu-item-4397 a").click(function () {
+            var enlace = $(this);
+            $(".reconocimientos-txt").hide("slow")
+            $(".reconocimientos-txt").promise().done(function () {
+                $(".reconocimientos-astillero").show("slow");
                 colores_menu(enlace);
             });
         });
