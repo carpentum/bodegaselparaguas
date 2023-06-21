@@ -1047,7 +1047,7 @@
         },
         1000
       );
-      window.location = "/el-paraguas-atlantico-2022";
+      window.location = "/vinos/el-paraguas-atlantico-2022";
       jQuery("#selector").animate({ opacity: 0 }, 500);
     });
 
@@ -1059,7 +1059,7 @@
           left: 0,
         },
         1000,
-        (window.location.href = "la-sombrilla-2020")
+        (window.location.href = "/vinos/la-sombrilla-2020")
       );
       jQuery("#selector").animate({ opacity: 0 }, 500);
     });
@@ -1073,7 +1073,7 @@
         },
         1000
       );
-      window.location = "/fai-un-sol-de-carallo-2020/";
+      window.location = "/vinos/fai-un-sol-de-carallo-2021/";
       jQuery("#selector").animate({ opacity: 0 }, 500);
     });
 
