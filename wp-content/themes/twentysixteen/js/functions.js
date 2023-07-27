@@ -945,6 +945,9 @@
     $("#menu-item-1124 a").click(function () {
       vino_mostrar_infobasica($(this));
     });
+    $("#menu-item-5330 a").click(function () {
+      vino_mostrar_reconocimientos($(this));
+    });
     $("#menu-item-1125 a").click(function (e) {
       vino_mostrar_etiqueta($(this));
     });
@@ -961,6 +964,9 @@
     $("#menu-item-1613 a").click(function () {
       vino_mostrar_infobasica($(this));
     });
+    $("#menu-item-5332 a").click(function () {
+      vino_mostrar_reconocimientos($(this));
+    });
     $("#menu-item-1614 a").click(function (e) {
       vino_mostrar_etiqueta($(this));
     });
@@ -976,6 +982,9 @@
     /***********    MENÚ EA (ga)    ***********/
     $("#menu-item-1619 a").click(function () {
       vino_mostrar_infobasica($(this));
+    });
+    $("#menu-item-5331 a").click(function () {
+      vino_mostrar_reconocimientos($(this));
     });
     $("#menu-item-1620 a").click(function (e) {
       vino_mostrar_etiqueta($(this));

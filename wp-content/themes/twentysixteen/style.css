@@ -3605,6 +3605,25 @@ input.wpcf7-submit:focus {
   height: 100%;
 }
 
+/** hide recognitions menu option **/
+.page-id-3990 .menu-item-5330,   /** AS2019 **/
+.page-id-3990 .menu-item-5331,   /** AS2019 galego **/
+.page-id-3990 .menu-item-5332,   /** AS2019 english **/
+.page-id-3693 .menu-item-5330,   /** AS2018 **/
+.page-id-3693 .menu-item-5331,   /** AS2018 galego **/
+.page-id-3693 .menu-item-5332,   /** AS2018 english **/ 
+.page-id-3368 .menu-item-5330,   /** AS2017 **/
+.page-id-3368 .menu-item-5331,   /** AS2017 galego **/
+.page-id-3368 .menu-item-5332,   /** AS2017 english **/
+.page-id-2474 .menu-item-5330,   /** AS2016 **/
+.page-id-2474 .menu-item-5331,   /** AS2016 galego **/
+.page-id-2474 .menu-item-5332,   /** AS2016 english **/
+.page-id-1011 .menu-item-5330,   /** AS2015 **/
+.page-id-1011 .menu-item-5331,   /** AS2015 galego **/
+.page-id-1011 .menu-item-5332   /** AS2015 english **/ {
+  display: none;
+}
+
 /**
  * 14.0 - Media Queries
  */
