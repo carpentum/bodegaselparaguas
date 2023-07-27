@@ -783,17 +783,6 @@ input[type="submit"][disabled]:focus {
   text-transform: uppercase;
 }
 
-button:hover,
-button:focus,
-input[type="button"]:hover,
-input[type="button"]:focus,
-input[type="reset"]:hover,
-input[type="reset"]:focus,
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-  background: #007acc;
-}
-
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -3076,6 +3065,9 @@ ul.reconocimientos-list li img {
   border: 1px solid #777;
 }
 
+ul.reconocimientos-list li.li-2021:before {
+  content: "2021";
+}
 ul.reconocimientos-list li.li-2020:before {
   content: "2020";
 }
