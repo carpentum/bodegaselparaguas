@@ -3158,6 +3158,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 #content,
+.page-id-5386 #content,     /*LS 2021*/
 .page-id-4846 #content,     /*LS 2020*/
 .page-id-4235 #content,     /*LS 2019*/
 .page-id-3569 #content,     /*LS 2018*/
@@ -3202,6 +3203,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 .entry-content,
+.page-id-5386 .entry-content,     /*LS 2021*/
 .page-id-4846 .entry-content,     /*LS 2020*/
 .page-id-4235 .entry-content,     /*LS 2019*/
 .page-id-3569 .entry-content,     /*LS 2018*/
@@ -3277,6 +3279,9 @@ footer .main-navigation {
 .page-id-1028 #menu-item-1043,      /*EPA 2011*/
 .page-id-1028 #menu-item-1489,      /*EPA 2011 (inglés)*/
 .page-id-1028 #menu-item-1512,      /*EPA 2011 (gallego)*/
+.page-id-5386 #menu-item-5399,       /*LS 2021*/
+.page-id-5386 #menu-item-5401,       /*LS 2021 (inglés)*/
+.page-id-5386 #menu-item-5400,       /*LS 2021 (gallego)*/
 .page-id-4846 #menu-item-4980,       /*LS 2020*/
 .page-id-4846 #menu-item-4982,       /*LS 2020 (inglés)*/
 .page-id-4846 #menu-item-4981,       /*LS 2020 (gallego)*/
@@ -3611,21 +3616,21 @@ input.wpcf7-submit:focus {
 }
 
 /** hide recognitions menu option **/
-.page-id-3990 .menu-item-5330,   /** AS2019 **/
-.page-id-3990 .menu-item-5331,   /** AS2019 galego **/
-.page-id-3990 .menu-item-5332,   /** AS2019 english **/
-.page-id-3693 .menu-item-5330,   /** AS2018 **/
-.page-id-3693 .menu-item-5331,   /** AS2018 galego **/
-.page-id-3693 .menu-item-5332,   /** AS2018 english **/ 
-.page-id-3368 .menu-item-5330,   /** AS2017 **/
-.page-id-3368 .menu-item-5331,   /** AS2017 galego **/
-.page-id-3368 .menu-item-5332,   /** AS2017 english **/
-.page-id-2474 .menu-item-5330,   /** AS2016 **/
-.page-id-2474 .menu-item-5331,   /** AS2016 galego **/
-.page-id-2474 .menu-item-5332,   /** AS2016 english **/
-.page-id-1011 .menu-item-5330,   /** AS2015 **/
-.page-id-1011 .menu-item-5331,   /** AS2015 galego **/
-.page-id-1011 .menu-item-5332   /** AS2015 english **/ {
+.page-id-3990 .menu-item-5330,   /** AST 2019 **/
+.page-id-3990 .menu-item-5331,   /** AST 2019 galego **/
+.page-id-3990 .menu-item-5332,   /** AST 2019 english **/
+.page-id-3693 .menu-item-5330,   /** AST 2018 **/
+.page-id-3693 .menu-item-5331,   /** AST 2018 galego **/
+.page-id-3693 .menu-item-5332,   /** AST 2018 english **/ 
+.page-id-3368 .menu-item-5330,   /** AST 2017 **/
+.page-id-3368 .menu-item-5331,   /** AST 2017 galego **/
+.page-id-3368 .menu-item-5332,   /** AST 2017 english **/
+.page-id-2474 .menu-item-5330,   /** AST 2016 **/
+.page-id-2474 .menu-item-5331,   /** AST 2016 galego **/
+.page-id-2474 .menu-item-5332,   /** AST 2016 english **/
+.page-id-1011 .menu-item-5330,   /** AST 2015 **/
+.page-id-1011 .menu-item-5331,   /** AST 2015 galego **/
+.page-id-1011 .menu-item-5332   /** AST 2015 english **/ {
   display: none;
 }
 
@@ -3695,6 +3700,7 @@ input.wpcf7-submit:focus {
   }
   .pagina_vino,
     .page-id-119 #content,
+    .page-id-5386 #content,     /*LS 2021*/
     .page-id-4846 #content,     /*LS 2020*/
     .page-id-4235 #content,     /*LS 2019*/
     .page-id-3569 #content,     /*LS 2018*/
@@ -3820,6 +3826,7 @@ input.wpcf7-submit:focus {
 
   .pagina_vino .entry-title,
     .page-id-119 #content .entry-title,
+    .page-id-5386 #content .entry-title,     /*LS 2021*/
     .page-id-4846 #content .entry-title,     /*LS 2020*/
     .page-id-4235 #content .entry-title,     /*LS 2019*/
     .page-id-3569 #content .entry-title,     /*LS 2018*/
