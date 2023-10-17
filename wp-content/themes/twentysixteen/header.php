@@ -32,7 +32,7 @@
                         <div id="site-header-menu" class="site-header-menu col-md-3 col-sm-3 hidden-xs">
                             <?php if (function_exists('mltlngg_display_switcher')) mltlngg_display_switcher(); ?>
                             <div class="header-rrss">
-                                <a href="http://www.facebook.com/pages/Bodegas-El-Paraguas/269228339785798" title="Bodegas El Paraguas en Facebook" target="_blank"><img src="/wp-content/uploads/2017/12/logo_facebook.png" alt="Facebook"></a><a href="https://twitter.com/bodegelparaguas" title="Bodegas El Paraguas en Twitter" target="_blank"><img src="/wp-content/uploads/2017/12/logo_twitter.png" alt="Twitter"></a><a href="https://plus.google.com/100047185169661231444/posts?hl=es" title="Bodegas El Paraguas en Google+" target="_blank"><img src="/wp-content/uploads/2017/12/logo_google_35x35.jpg" alt="Google+"></a>
+                                <a href="https://www.instagram.com/bodegaselparaguas/" title="Bodegas El Paraguas en Instagram" target="_blank"><img src="/wp-content/uploads/2022/08/logo_instagram.png" alt="Instagram"></a><a href="https://twitter.com/bodegelparaguas" title="Bodegas El Paraguas en Twitter" target="_blank"><img src="/wp-content/uploads/2017/12/logo_twitter.png" alt="Twitter"></a><a href="https://www.youtube.com/channel/UC848NZFFcvO_u9u-GH74mvg" title="Bodegas El Paraguas en Youtube" target="_blank"><img src="/wp-content/uploads/2022/08/logo-youtube.png" alt="Youtube"></a>
                             </div>
                             <?php if (has_nav_menu('primary')) : ?>
                                 <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e('Primary Menu', 'twentysixteen'); ?>">
@@ -42,6 +42,26 @@
                                         'menu_class' => 'primary-menu',
                                     ));
                                     ?>
+                                    <ul>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5505"><a href="https://tienda.bodegaselparaguas.com">
+                                            <?php
+                                            if(get_locale() == "es_ES"){
+                                                ?>
+                                                Tienda
+                                                <?php
+                                            } else if (get_locale() == "en_GB"){
+                                                ?>
+                                                Shop
+                                                <?php
+                                            } else if (get_locale() == "gl_ES"){
+                                                ?>
+                                                Tenda
+                                                <?php
+                                            }
+                                            ?>
+                                        </a></li>
+                                    </ul>
+                                    
                                 </nav><!-- .main-navigation -->
                             <?php endif; ?>
 
@@ -91,7 +111,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://www.bodegaselparaguas.com">
+                    <a class="navbar-brand" href="<?php echo WP_HOME?>">
                         <img src="<?= twentysixteen_the_custom_logo_url(); ?>" alt="Logo <?php bloginfo('name'); ?>">
                         <span>
                             <?php bloginfo('name'); ?>
@@ -134,6 +154,25 @@
                         'menu_class' => 'primary-menu',
                     ));
                     ?>
+                    <ul class="nav navbar-nav shop-menu-item" style="margin-top:0">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://tienda.bodegaselparaguas.com">
+                            <?php
+                            if(get_locale() == "es_ES"){
+                                ?>
+                                Tienda
+                                <?php
+                            } else if (get_locale() == "en_GB"){
+                                ?>
+                                Shop
+                                <?php
+                            } else if (get_locale() == "gl_ES"){
+                                ?>
+                                Tenda
+                                <?php
+                            }
+                            ?>
+                        </a></li>
+                    </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container-fluid -->
         </nav>

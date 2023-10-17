@@ -1812,7 +1812,8 @@ blockquote:after,
 
 .entry-title a:hover,
 .entry-title a:focus {
-  color: #007acc;
+  color: #1a1a1a;
+  text-decoration: none;
 }
 
 .post-thumbnail {
@@ -5026,4 +5027,12 @@ input.wpcf7-submit:focus {
   .widecolumn {
     padding: 0;
   }
+}
+
+.navbar-nav {
+  margin: 7.5px -15px 0;
+}
+
+.navbar-nav.shop-menu-item {
+  margin-bottom: 7.5px;
 }

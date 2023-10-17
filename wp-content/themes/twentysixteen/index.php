@@ -15,7 +15,7 @@
  */
 get_header();
 ?>
-<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
             <div class="row">
