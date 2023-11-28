@@ -3066,6 +3066,9 @@ ul.reconocimientos-list li img {
   border: 1px solid #777;
 }
 
+ul.reconocimientos-list li.li-2022:before {
+  content: "2022";
+}
 ul.reconocimientos-list li.li-2021:before {
   content: "2021";
 }
