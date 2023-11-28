@@ -31,6 +31,7 @@ get_header();
 
                         <?php
                         $contador = 1;
+                        echo "<div class='row'>";
                         // Start the loop.
                         while (have_posts()) : the_post();
                             /*
@@ -39,19 +40,13 @@ get_header();
                              * called content-___.php (where ___ is the Post Format name) and that will be used instead.
                              */
                             if ($contador == 1 || $contador == 2) {
-                                echo "<div class='row'>";
                                 echo "<div class='col-md-12 col-sm-12 col-xs-12 page-responsivetxt' style='margin-bottom:30px;'>";
                                 get_template_part('template-parts/content', get_post_format());
                                 echo "</div>";
-                                echo "</div>";
                             } else {
-                                if ($contador % 4 == 3)
-                                    echo "<div class='row' style='margin-bottom:20px;clear:both'>";
-                                echo "<div class='col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-12 small-entry page-responsivetxt'>";
+                                echo "<div class='col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-12 small-entry page-responsivetxt' style='margin-bottom:20px;'>";
                                 get_template_part('template-parts/content_rest', get_post_format());
                                 echo "</div>";
-                                if ($contador % 4 == 2)
-                                    echo "</div>";
                             }
                             $contador++;
                         // End the loop.
@@ -71,10 +66,16 @@ get_header();
                     endif;
                     ?>
                 </div>
-                <div class="col-md-2 col-sm-12 col-xs-12">
+                <div class="col-md-2 col-sm-12 col-xs-12" style="margin-bottom:10px">
                     <h3 style="text-align: center;margin-bottom: 20px;">Newsletters</h5>
                     <div class="row">
-                        <div class="col-md-12 col-sm-6 col-xs-12 newsletters">
+                        <div class="col-md-12 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 newsletters">
+                            <div class="newsletter">
+                                <a href="/newsletter/2023_diciembre.html" title="Diciembre 2023">
+                                    <img src="/newsletter/img/202312/screenshot.png" alt="Diciembre 2023">
+                                    <h5>Diciembre 2023</h5>
+                                </a>
+                            </div>
                             <div class="newsletter">
                                 <a href="/newsletter/2023_septiembre.html" title="Septiembre 2023">
                                     <img src="/newsletter/img/202309/screenshot.png" alt="Septiembre 2023">
