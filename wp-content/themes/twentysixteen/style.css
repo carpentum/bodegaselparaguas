@@ -5039,3 +5039,7 @@ input.wpcf7-submit:focus {
 .navbar-nav.shop-menu-item {
   margin-bottom: 7.5px;
 }
+
+.blog .site-content {
+  padding-top: 20px !important;
+}
