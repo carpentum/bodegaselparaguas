@@ -1056,7 +1056,7 @@
         },
         1000
       );
-      window.location = "/vinos/el-paraguas-atlantico-2022";
+      window.location = "/vinos/el-paraguas-atlantico-2023";
       jQuery("#selector").animate({ opacity: 0 }, 500);
     });
 
