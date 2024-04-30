@@ -485,6 +485,16 @@
           colores_menu(enlace);
         });
     });
+    $("#menu-item-5890 a").click(function () {
+      var enlace = $(this);
+      $(".vinedo-txt").hide("slow");
+      $(".vinedo-txt")
+        .promise()
+        .done(function () {
+          $(".vinedo-capilla").show("slow");
+          colores_menu(enlace);
+        });
+    });
 
     /***********    END MENÚ VIÑEDO    ***********/
 
