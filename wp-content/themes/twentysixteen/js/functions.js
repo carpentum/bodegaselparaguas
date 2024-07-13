@@ -1078,7 +1078,7 @@
           left: 0,
         },
         1000,
-        (window.location.href = "/vinos/la-sombrilla-2021")
+        (window.location.href = "/vinos/la-sombrilla-2022")
       );
       jQuery("#selector").animate({ opacity: 0 }, 500);
     });
