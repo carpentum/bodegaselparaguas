@@ -1103,7 +1103,7 @@
                 },
                 1000
             );
-            window.location = "/vinos/fai-un-sol-de-carallo-2022/";
+            window.location = "/vinos/fai-un-sol-de-carallo-2023/";
             jQuery("#selector").animate({ opacity: 0 }, 500);
         });
 

@@ -3186,6 +3186,7 @@ footer .main-navigation {
 .page-id-3309 #content,     /*LS 2017*/
 .page-id-783 #content,      /*LS 2016*/
 .page-id-1070 #content,     /*LS 2015*/
+.page-id-6203 #content,     /*FSC 2023*/
 .page-id-5896 #content,     /*FSC 2022*/
 .page-id-5262 #content,     /*FSC 2021*/
 .page-id-4839 #content,     /*FSC 2020*/
@@ -3236,6 +3237,7 @@ footer .main-navigation {
 .page-id-3309 .entry-content,     /*LS 2017*/
 .page-id-783 .entry-content,      /*LS 2016*/
 .page-id-1070 .entry-content,     /*LS 2015*/
+.page-id-6203 .entry-content,     /*FSC 2023*/
 .page-id-5896 .entry-content,     /*FSC 2022*/
 .page-id-5262 .entry-content,     /*FSC 2021*/
 .page-id-4839 .entry-content,     /*FSC 2020*/
@@ -3339,6 +3341,9 @@ footer .main-navigation {
 .page-id-1070 #menu-item-1072,      /*LS 2015*/
 .page-id-1070 #menu-item-1572,      /*LS 2015 (inglés)*/
 .page-id-1070 #menu-item-1583,      /*LS 2015 (gallego)*/
+.page-id-6203 #menu-item-6230,       /*FSC 2023*/
+.page-id-6203 #menu-item-6232,       /*FSC 2023 (inglés)*/
+.page-id-6203 #menu-item-6231,       /*FSC 2023 (gallego)*/
 .page-id-5896 #menu-item-5958,       /*FSC 2022*/
 .page-id-5896 #menu-item-5960,       /*FSC 2022 (inglés)*/
 .page-id-5896 #menu-item-5959,       /*FSC 2022 (gallego)*/
@@ -3756,6 +3761,7 @@ input.wpcf7-submit:focus {
     .page-id-3309 #content,     /*LS 2017*/
     .page-id-783 #content,      /*LS 2016*/
     .page-id-1070 #content,     /*LS 2015*/
+    .page-id-6203 #content,     /*FSC 2023*/
     .page-id-5896 #content,     /*FSC 2022*/
     .page-id-5262 #content,     /*FSC 2021*/
     .page-id-4839 #content,     /*FSC 2020*/
@@ -3887,6 +3893,7 @@ input.wpcf7-submit:focus {
     .page-id-3309 #content .entry-title,     /*LS 2017*/
     .page-id-783 #content .entry-title,      /*LS 2016*/
     .page-id-1070 #content .entry-title,     /*LS 2015*/
+    .page-id-6203 #content .entry-title,     /*FSC 2023*/
     .page-id-5896 #content .entry-title,     /*FSC 2022*/
     .page-id-5262 #content .entry-title,     /*FSC 2021*/
     .page-id-4839 #content .entry-title,     /*FSC 2020*/
