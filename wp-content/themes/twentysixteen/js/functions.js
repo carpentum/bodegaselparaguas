@@ -1089,7 +1089,7 @@
                     left: 0,
                 },
                 1000,
-                (window.location.href = "/vinos/la-sombrilla-2022")
+                (window.location.href = "/vinos/la-sombrilla-2023")
             );
             jQuery("#selector").animate({ opacity: 0 }, 500);
         });
@@ -1107,12 +1107,29 @@
             jQuery("#selector").animate({ opacity: 0 }, 500);
         });
 
-        document.addEventListener("DOMNodeInserted", function (evt) {
-            jQuery(".list-group-item a").click(function () {
-                jQuery($(this).closest(".list-group-item"))
-                    .find(" i.expand-icon")
-                    .click();
-            });
+        // Crear el observer
+        const observer = new MutationObserver(function (mutationsList) {
+            for (const mutation of mutationsList) {
+                if (
+                    mutation.type === "childList" &&
+                    mutation.addedNodes.length > 0
+                ) {
+                    // Aplicar el handler a los nuevos elementos
+                    jQuery(".list-group-item a")
+                        .off("click")
+                        .on("click", function () {
+                            jQuery($(this).closest(".list-group-item"))
+                                .find("i.expand-icon")
+                                .click();
+                        });
+                }
+            }
+        });
+
+        // Configurar y comenzar a observar
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true,
         });
 
         jQuery(".list-group-item a").click(function () {

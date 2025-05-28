@@ -3178,6 +3178,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 #content,
+.page-id-6246 #content,     /*LS 2023*/
 .page-id-5961 #content,     /*LS 2022*/
 .page-id-5386 #content,     /*LS 2021*/
 .page-id-4846 #content,     /*LS 2020*/
@@ -3229,6 +3230,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 .entry-content,
+.page-id-6246 .entry-content,     /*LS 2023*/
 .page-id-5961 .entry-content,     /*LS 2022*/
 .page-id-5386 .entry-content,     /*LS 2021*/
 .page-id-4846 .entry-content,     /*LS 2020*/
@@ -3317,6 +3319,9 @@ footer .main-navigation {
 .page-id-1028 #menu-item-1043,      /*EPA 2011*/
 .page-id-1028 #menu-item-1489,      /*EPA 2011 (inglés)*/
 .page-id-1028 #menu-item-1512,      /*EPA 2011 (gallego)*/
+.page-id-6246 #menu-item-6279,       /*LS 2023*/
+.page-id-6246 #menu-item-6281,       /*LS 2023 (inglés)*/
+.page-id-6246 #menu-item-6280,       /*LS 2023 (gallego)*/
 .page-id-5961 #menu-item-5994,       /*LS 2022*/
 .page-id-5961 #menu-item-5996,       /*LS 2022 (inglés)*/
 .page-id-5961 #menu-item-5995,       /*LS 2022 (gallego)*/
@@ -3753,6 +3758,7 @@ input.wpcf7-submit:focus {
     }
     .pagina_vino,
     .page-id-119 #content,
+    .page-id-6246 #content,     /*LS 2023*/
     .page-id-5961 #content,     /*LS 2022*/
     .page-id-5386 #content,     /*LS 2021*/
     .page-id-4846 #content,     /*LS 2020*/
@@ -3885,6 +3891,7 @@ input.wpcf7-submit:focus {
 
     .pagina_vino .entry-title,
     .page-id-119 #content .entry-title,
+    .page-id-6246 #content .entry-title,     /*LS 2023*/
     .page-id-5961 #content .entry-title,     /*LS 2022*/
     .page-id-5386 #content .entry-title,     /*LS 2021*/
     .page-id-4846 #content .entry-title,     /*LS 2020*/
