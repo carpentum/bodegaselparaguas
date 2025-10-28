@@ -3198,6 +3198,7 @@ footer .main-navigation {
 .page-id-780 #content,      /*FSC 2015*/
 .page-id-1079 #content,     /*FSC 2014*/
 .page-id-1081 #content,     /*FSC 2013*/
+.page-id-6373 #content,     /*AST 2023*/
 .page-id-6131 #content,     /*AST 2022*/
 .page-id-5347 #content,     /*AST 2021*/
 .page-id-5001 #content,     /*AST 2020*/
@@ -3250,6 +3251,7 @@ footer .main-navigation {
 .page-id-780 .entry-content,      /*FSC 2015*/
 .page-id-1079 .entry-content,     /*FSC 2014*/
 .page-id-1081 .entry-content,     /*FSC 2013*/
+.page-id-6373 .entry-content,     /*AST 2023*/
 .page-id-6131 .entry-content,     /*AST 2022*/
 .page-id-5347 .entry-content,     /*AST 2021*/
 .page-id-5001 .entry-content,     /*AST 2020*/
@@ -3379,9 +3381,12 @@ footer .main-navigation {
 .page-id-1081 #menu-item-1083,      /*FSC 2013*/
 .page-id-1081 #menu-item-1595,      /*FSC 2013 (inglés)*/
 .page-id-1081 #menu-item-1609,      /*FSC 2013 (gallego)*/
-.page-id-123 #menu-item-4045,     /*AST 2023*/
-.page-id-123 #menu-item-4051,     /*AST 2023 (inglés)*/
-.page-id-123 #menu-item-4050,     /*AST 2023 (gallego)*/
+.page-id-123 #menu-item-4045,     /*AST 2024*/
+.page-id-123 #menu-item-4051,     /*AST 2024 (inglés)*/
+.page-id-123 #menu-item-4050,     /*AST 2024 (gallego)*/
+.page-id-6373 #menu-item-6399,     /*AST 2023*/
+.page-id-6373 #menu-item-6401,     /*AST 2023 (inglés)*/
+.page-id-6373 #menu-item-6400,     /*AST 2023 (gallego)*/
 .page-id-6131 #menu-item-6144,     /*AST 2022*/
 .page-id-6131 #menu-item-6146,     /*AST 2022 (inglés)*/
 .page-id-6131 #menu-item-6145,     /*AST 2022 (gallego)*/
@@ -3784,6 +3789,7 @@ input.wpcf7-submit:focus {
     .page-id-780 #content,      /*FSC 2015*/
     .page-id-1079 #content,     /*FSC 2014*/
     .page-id-1081 #content,     /*FSC 2013*/
+    .page-id-6373 #content,     /*AST 2023*/
     .page-id-6131 #content,     /*AST 2022*/
     .page-id-5347 #content,     /*AST 2021*/
     .page-id-5001 #content,     /*AST 2020*/
@@ -3917,6 +3923,7 @@ input.wpcf7-submit:focus {
     .page-id-780 #content .entry-title,      /*FSC 2015*/
     .page-id-1079 #content .entry-title,     /*FSC 2014*/
     .page-id-1081 #content .entry-title,     /*FSC 2013*/
+    .page-id-6373 #content .entry-title,     /*AST 2023*/
     .page-id-6131 #content .entry-title,     /*AST 2022*/
     .page-id-5347 #content .entry-title,     /*AST 2021*/
     .page-id-5001 #content .entry-title,     /*AST 2020*/
