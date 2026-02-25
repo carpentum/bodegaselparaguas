@@ -72,6 +72,12 @@ get_header();
                         <div class="row">
                             <div class="col-md-12 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 newsletters">
                                 <div class="newsletter">
+                                    <a href="/newsletter/2026_marzo.html" title="Marzo 2026">
+                                        <img src="/newsletter/img/202603/screenshot.png" alt="Marzo 2026">
+                                        <h5>Marzo 2026</h5>
+                                    </a>
+                                </div>
+                                <div class="newsletter">
                                     <a href="/newsletter/2025_diciembre.html" title="Diciembre 2025">
                                         <img src="/newsletter/img/202512/screenshot.png" alt="Diciembre 2025">
                                         <h5>Diciembre 2025</h5>
