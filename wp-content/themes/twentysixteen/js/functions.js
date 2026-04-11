@@ -23,7 +23,7 @@
             $("<span />", {
                 class: "screen-reader-text",
                 text: screenReaderText.expand,
-            })
+            }),
         );
 
         container.find(".menu-item-has-children > a").after(dropdownToggle);
@@ -50,13 +50,13 @@
             // jscs:disable
             _this.attr(
                 "aria-expanded",
-                _this.attr("aria-expanded") === "false" ? "true" : "false"
+                _this.attr("aria-expanded") === "false" ? "true" : "false",
             );
             // jscs:enable
             screenReaderSpan.text(
                 screenReaderSpan.text() === screenReaderText.expand
                     ? screenReaderText.collapse
-                    : screenReaderText.expand
+                    : screenReaderText.expand,
             );
         });
     }
@@ -95,7 +95,7 @@
                         .add(socialNavigation)
                         .attr("aria-expanded") === "false"
                         ? "true"
-                        : "false"
+                        : "false",
                 );
             // jscs:enable
         });
@@ -164,7 +164,7 @@
 
             menuToggle.attr(
                 "aria-controls",
-                "site-navigation social-navigation"
+                "site-navigation social-navigation",
             );
         } else {
             menuToggle.removeAttr("aria-expanded");
@@ -238,7 +238,7 @@
                 resizeTimer = setTimeout(function () {
                     belowEntryMetaClass("img.size-full");
                     belowEntryMetaClass(
-                        "blockquote.alignleft, blockquote.alignright"
+                        "blockquote.alignleft, blockquote.alignright",
                     );
                 }, 300);
                 onResizeARIA();
@@ -1037,33 +1037,33 @@
             function () {
                 jQuery("#selector").animate(
                     { left: "0px" },
-                    { queue: false, duration: 100 }
+                    { queue: false, duration: 100 },
                 );
                 jQuery(".selector_txt").html(desc_epa);
             },
-            function () {}
+            function () {},
         );
 
         jQuery(".vinos_bottle_container_ls").hover(
             function () {
                 jQuery("#selector").animate(
                     { left: "240px" },
-                    { queue: false, duration: 100 }
+                    { queue: false, duration: 100 },
                 );
                 jQuery(".selector_txt").html(desc_ls);
             },
-            function () {}
+            function () {},
         );
 
         jQuery(".vinos_bottle_container_fsc").hover(
             function () {
                 jQuery("#selector").animate(
                     { left: "480px" },
-                    { queue: false, duration: 100 }
+                    { queue: false, duration: 100 },
                 );
                 jQuery(".selector_txt").html(desc_fsc);
             },
-            function () {}
+            function () {},
         );
 
         jQuery(".vinos_bottle_container_epa").click(function () {
@@ -1075,9 +1075,9 @@
                         $(".vinos_bottle_container_epa").parent().width() / 2 -
                         $(".vinos_bottle_container_epa").width() / 2,
                 },
-                1000
+                1000,
             );
-            window.location = "/vinos/el-paraguas-atlantico-2024";
+            window.location = "/vinos/el-paraguas-atlantico-2025";
             jQuery("#selector").animate({ opacity: 0 }, 500);
         });
 
@@ -1089,7 +1089,7 @@
                     left: 0,
                 },
                 1000,
-                (window.location.href = "/vinos/la-sombrilla-2023")
+                (window.location.href = "/vinos/la-sombrilla-2023"),
             );
             jQuery("#selector").animate({ opacity: 0 }, 500);
         });
@@ -1101,7 +1101,7 @@
                 {
                     left: -240,
                 },
-                1000
+                1000,
             );
             window.location = "/vinos/fai-un-sol-de-carallo-2023/";
             jQuery("#selector").animate({ opacity: 0 }, 500);

@@ -77,7 +77,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: normal;
     font-weight: 100;
     src: url("fonts/MuseoSans/MuseoSans-100.eot");
-    src: url("fonts/MuseoSans/MuseoSans-100.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-100.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-100.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-100.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-100.svg#MuseoSans-100") format("svg"),
@@ -91,7 +92,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: italic;
     font-weight: 100;
     src: url("fonts/MuseoSans/MuseoSans-100Italic.eot");
-    src: url("fonts/MuseoSans/MuseoSans-100Italic.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-100Italic.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-100Italic.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-100Italic.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-100Italic.svg#MuseoSans-100")
@@ -106,7 +108,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: normal;
     font-weight: 300;
     src: url("fonts/MuseoSans/MuseoSans-300.eot");
-    src: url("fonts/MuseoSans/MuseoSans-300.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-300.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-300.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-300.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-300.svg#MuseoSans-100") format("svg"),
@@ -120,7 +123,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: italic;
     font-weight: 300;
     src: url("fonts/MuseoSans/MuseoSans-300Italic.eot");
-    src: url("fonts/MuseoSans/MuseoSans-300Italic.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-300Italic.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-300Italic.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-300Italic.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-300Italic.svg#MuseoSans-100")
@@ -135,7 +139,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: normal;
     font-weight: 500;
     src: url("fonts/MuseoSans/MuseoSans-500.eot");
-    src: url("fonts/MuseoSans/MuseoSans-500.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-500.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-500.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-500.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-500.svg#MuseoSans-100") format("svg"),
@@ -149,7 +154,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: italic;
     font-weight: 500;
     src: url("fonts/MuseoSans/MuseoSans-500Italic.eot");
-    src: url("fonts/MuseoSans/MuseoSans-500Italic.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-500Italic.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-500Italic.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-500Italic.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-500Italic.svg#MuseoSans-100")
@@ -164,7 +170,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: normal;
     font-weight: 700;
     src: url("fonts/MuseoSans/MuseoSans-700.eot");
-    src: url("fonts/MuseoSans/MuseoSans-700.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-700.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-700.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-700.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-700.svg#MuseoSans-100") format("svg"),
@@ -178,7 +185,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: italic;
     font-weight: 700;
     src: url("fonts/MuseoSans/MuseoSans-700Italic.eot");
-    src: url("fonts/MuseoSans/MuseoSans-700Italic.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-700Italic.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-700Italic.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-700Italic.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-700Italic.svg#MuseoSans-100")
@@ -193,7 +201,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: normal;
     font-weight: 900;
     src: url("fonts/MuseoSans/MuseoSans-900.eot");
-    src: url("fonts/MuseoSans/MuseoSans-900.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-900.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-900.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-900.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-900.svg#MuseoSans-100") format("svg"),
@@ -207,7 +216,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-style: italic;
     font-weight: 900;
     src: url("fonts/MuseoSans/MuseoSans-900Italic.eot");
-    src: url("fonts/MuseoSans/MuseoSans-900Italic.woff2") format("woff2"),
+    src:
+        url("fonts/MuseoSans/MuseoSans-900Italic.woff2") format("woff2"),
         url("fonts/MuseoSans/MuseoSans-900Italic.woff") format("woff"),
         url("fonts/MuseoSans/MuseoSans-900Italic.ttf") format("truetype"),
         url("fonts/MuseoSans/MuseoSans-900Italic.svg#MuseoSans-100")
@@ -220,7 +230,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @font-face {
     font-family: "Alternate_Gothic";
     src: url("fonts/AlternateGothic/Alternate_Gothic.eot");
-    src: url("fonts/AlternateGothic/Alternate_Gothic.woff2") format("woff2"),
+    src:
+        url("fonts/AlternateGothic/Alternate_Gothic.woff2") format("woff2"),
         url("fonts/AlternateGothic/Alternate_Gothic.eot?#iefix")
             format("embedded-opentype");
     font-weight: normal;
@@ -229,7 +240,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @font-face {
     font-family: "AlternateGothicNo2BT-Regular";
-    src: url("fonts/AlternateGothic/AlternateGothicNo2BT-Regular.woff")
+    src:
+        url("fonts/AlternateGothic/AlternateGothicNo2BT-Regular.woff")
             format("woff"),
         url("fonts/AlternateGothic/AlternateGothicNo2BT-Regular.ttf")
             format("truetype"),
@@ -3210,6 +3222,7 @@ footer .main-navigation {
 .page-id-3368 #content,     /*AST 2017*/
 .page-id-2474 #content,     /*AST 2016*/
 .page-id-1011 #content,     /*AST 2015*/
+.page-id-6489 #content,     /*EPA 2025*/
 .page-id-6165 #content,     /*EPA 2024*/
 .page-id-5750 #content,     /*EPA 2023*/
 .page-id-5204 #content,     /*EPA 2022*/
@@ -3263,6 +3276,7 @@ footer .main-navigation {
 .page-id-3368 .entry-content,     /*AST 2017*/
 .page-id-2474 .entry-content,     /*AST 2016*/
 .page-id-1011 .entry-content,     /*AST 2015*/
+.page-id-6489 .entry-content,     /*EPA 2025*/
 .page-id-6165 .entry-content,     /*EPA 2024*/
 .page-id-5750 .entry-content,     /*EPA 2023*/
 .page-id-5204 .entry-content,     /*EPA 2022*/
@@ -3282,6 +3296,9 @@ footer .main-navigation {
 }
 
 /*  EN LA PÁGINA DE CADA VINO NO SE VE EL ENLACE A SU PROPIA PÁGINA  */
+.page-id-6489 #menu-item-6509,       /*EPA 2025*/
+.page-id-6489 #menu-item-6511,       /*EPA 2025 (inglés)*/
+.page-id-6489 #menu-item-6510,       /*EPA 2025 (gallego)*/
 .page-id-6165 #menu-item-6189,       /*EPA 2024*/
 .page-id-6165 #menu-item-6191,       /*EPA 2024 (inglés)*/
 .page-id-6165 #menu-item-6190,       /*EPA 2024 (gallego)*/
@@ -3678,7 +3695,10 @@ input.wpcf7-submit:focus {
     height: 100%;
 }
 
-/** hide recognitions menu option **/
+/** hide recognitions reconocimientos menu option **/
+.page-id-6489 .menu-item-810,   /** EPA 2025 **/
+.page-id-6489 .menu-item-1508,   /** EPA 2025 galego **/
+.page-id-6489 .menu-item-1485,   /** EPA 2025 english **/
 .page-id-6246 .menu-item-1066,   /** LS 2023 **/
 .page-id-6246 .menu-item-1578,   /** LS 2023 galego **/
 .page-id-6246 .menu-item-1567,   /** LS 2023 english **/
@@ -3798,6 +3818,7 @@ input.wpcf7-submit:focus {
     .page-id-3368 #content,     /*AST 2017*/
     .page-id-2474 #content,     /*AST 2016*/
     .page-id-1011 #content,     /*AST 2015*/
+    .page-id-6489 #content,     /*EPA 2025*/
     .page-id-6165 #content,     /*EPA 2024*/
     .page-id-5750 #content,     /*EPA 2023*/
     .page-id-5204 #content,     /*EPA 2022*/
@@ -3932,6 +3953,7 @@ input.wpcf7-submit:focus {
     .page-id-3368 #content .entry-title,     /*AST 2017*/
     .page-id-2474 #content .entry-title,     /*AST 2016*/
     .page-id-1011 #content .entry-title,     /*AST 2015*/
+    .page-id-6489 #content .entry-title,      /*EPA 2025*/
     .page-id-6165 #content .entry-title,      /*EPA 2024*/
     .page-id-5750 #content .entry-title,      /*EPA 2023*/
     .page-id-5204 #content .entry-title,      /*EPA 2022*/
