@@ -3193,6 +3193,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 #content,
+.page-id-6602 #content,     /*LS 2024*/
 .page-id-6246 #content,     /*LS 2023*/
 .page-id-5961 #content,     /*LS 2022*/
 .page-id-5386 #content,     /*LS 2021*/
@@ -3247,6 +3248,7 @@ footer .main-navigation {
 
 .pagina_vino,
 .page-id-119 .entry-content,
+.page-id-6602 .entry-content,     /*LS 2024*/
 .page-id-6246 .entry-content,     /*LS 2023*/
 .page-id-5961 .entry-content,     /*LS 2022*/
 .page-id-5386 .entry-content,     /*LS 2021*/
@@ -3341,6 +3343,9 @@ footer .main-navigation {
 .page-id-1028 #menu-item-1043,      /*EPA 2011*/
 .page-id-1028 #menu-item-1489,      /*EPA 2011 (inglés)*/
 .page-id-1028 #menu-item-1512,      /*EPA 2011 (gallego)*/
+.page-id-6602 #menu-item-6615,       /*LS 2024*/
+.page-id-6602 #menu-item-6617,       /*LS 2024 (inglés)*/
+.page-id-6602 #menu-item-6616,       /*LS 2024 (gallego)*/
 .page-id-6246 #menu-item-6279,       /*LS 2023*/
 .page-id-6246 #menu-item-6281,       /*LS 2023 (inglés)*/
 .page-id-6246 #menu-item-6280,       /*LS 2023 (gallego)*/
@@ -3699,6 +3704,9 @@ input.wpcf7-submit:focus {
 .page-id-6489 .menu-item-810,   /** EPA 2025 **/
 .page-id-6489 .menu-item-1508,   /** EPA 2025 galego **/
 .page-id-6489 .menu-item-1485,   /** EPA 2025 english **/
+.page-id-6602 .menu-item-1066,   /** LS 2024 **/
+.page-id-6602 .menu-item-1578,   /** LS 2024 galego **/
+.page-id-6602 .menu-item-1567,   /** LS 2024 english **/
 .page-id-6246 .menu-item-1066,   /** LS 2023 **/
 .page-id-6246 .menu-item-1578,   /** LS 2023 galego **/
 .page-id-6246 .menu-item-1567,   /** LS 2023 english **/
@@ -3789,6 +3797,7 @@ input.wpcf7-submit:focus {
     }
     .pagina_vino,
     .page-id-119 #content,
+    .page-id-6602 #content,     /*LS 2024*/
     .page-id-6246 #content,     /*LS 2023*/
     .page-id-5961 #content,     /*LS 2022*/
     .page-id-5386 #content,     /*LS 2021*/
@@ -3924,6 +3933,7 @@ input.wpcf7-submit:focus {
 
     .pagina_vino .entry-title,
     .page-id-119 #content .entry-title,
+    .page-id-6602 #content .entry-title,     /*LS 2024*/
     .page-id-6246 #content .entry-title,     /*LS 2023*/
     .page-id-5961 #content .entry-title,     /*LS 2022*/
     .page-id-5386 #content .entry-title,     /*LS 2021*/

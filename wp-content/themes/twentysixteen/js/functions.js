@@ -1089,7 +1089,7 @@
                     left: 0,
                 },
                 1000,
-                (window.location.href = "/vinos/la-sombrilla-2023"),
+                (window.location.href = "/vinos/la-sombrilla-2024"),
             );
             jQuery("#selector").animate({ opacity: 0 }, 500);
         });
