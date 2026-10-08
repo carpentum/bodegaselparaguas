@@ -3203,6 +3203,7 @@ footer .main-navigation {
 .page-id-3309 #content,     /*LS 2017*/
 .page-id-783 #content,      /*LS 2016*/
 .page-id-1070 #content,     /*LS 2015*/
+.page-id-6640 #content,     /*FSC 2024*/
 .page-id-6203 #content,     /*FSC 2023*/
 .page-id-5896 #content,     /*FSC 2022*/
 .page-id-5262 #content,     /*FSC 2021*/
@@ -3258,6 +3259,7 @@ footer .main-navigation {
 .page-id-3309 .entry-content,     /*LS 2017*/
 .page-id-783 .entry-content,      /*LS 2016*/
 .page-id-1070 .entry-content,     /*LS 2015*/
+.page-id-6640 .entry-content,     /*FSC 2024*/
 .page-id-6203 .entry-content,     /*FSC 2023*/
 .page-id-5896 .entry-content,     /*FSC 2022*/
 .page-id-5262 .entry-content,     /*FSC 2021*/
@@ -3373,6 +3375,9 @@ footer .main-navigation {
 .page-id-1070 #menu-item-1072,      /*LS 2015*/
 .page-id-1070 #menu-item-1572,      /*LS 2015 (inglés)*/
 .page-id-1070 #menu-item-1583,      /*LS 2015 (gallego)*/
+.page-id-6640 #menu-item-6678,       /*FSC 2024*/
+.page-id-6640 #menu-item-6680,       /*FSC 2024 (inglés)*/
+.page-id-6640 #menu-item-6679,       /*FSC 2024 (gallego)*/
 .page-id-6203 #menu-item-6230,       /*FSC 2023*/
 .page-id-6203 #menu-item-6232,       /*FSC 2023 (inglés)*/
 .page-id-6203 #menu-item-6231,       /*FSC 2023 (gallego)*/
@@ -3701,15 +3706,15 @@ input.wpcf7-submit:focus {
 }
 
 /** hide recognitions reconocimientos menu option **/
+.page-id-6640 .menu-item-1075,   /** FSC 2024 **/
+.page-id-6640 .menu-item-1603,   /** FSC 2024 galego **/
+.page-id-6640 .menu-item-1589,   /** FSC 2024 english **/
 .page-id-6489 .menu-item-810,   /** EPA 2025 **/
 .page-id-6489 .menu-item-1508,   /** EPA 2025 galego **/
 .page-id-6489 .menu-item-1485,   /** EPA 2025 english **/
 .page-id-6602 .menu-item-1066,   /** LS 2024 **/
 .page-id-6602 .menu-item-1578,   /** LS 2024 galego **/
 .page-id-6602 .menu-item-1567,   /** LS 2024 english **/
-.page-id-6203 .menu-item-1075,   /** FSC 2023 **/
-.page-id-6203 .menu-item-1603,   /** FSC 2023 galego **/
-.page-id-6203 .menu-item-1589,   /** FSC 2023 english **/
 .page-id-3990 .menu-item-5330,   /** AST 2019 **/
 .page-id-3990 .menu-item-5331,   /** AST 2019 galego **/
 .page-id-3990 .menu-item-5332,   /** AST 2019 english **/
@@ -3804,6 +3809,7 @@ input.wpcf7-submit:focus {
     .page-id-3309 #content,     /*LS 2017*/
     .page-id-783 #content,      /*LS 2016*/
     .page-id-1070 #content,     /*LS 2015*/
+    .page-id-6640 #content,     /*FSC 2024*/
     .page-id-6203 #content,     /*FSC 2023*/
     .page-id-5896 #content,     /*FSC 2022*/
     .page-id-5262 #content,     /*FSC 2021*/
@@ -3940,6 +3946,7 @@ input.wpcf7-submit:focus {
     .page-id-3309 #content .entry-title,     /*LS 2017*/
     .page-id-783 #content .entry-title,      /*LS 2016*/
     .page-id-1070 #content .entry-title,     /*LS 2015*/
+    .page-id-6640 #content .entry-title,     /*FSC 2024*/
     .page-id-6203 #content .entry-title,     /*FSC 2023*/
     .page-id-5896 #content .entry-title,     /*FSC 2022*/
     .page-id-5262 #content .entry-title,     /*FSC 2021*/
